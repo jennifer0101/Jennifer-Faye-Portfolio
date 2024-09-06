@@ -1,0 +1,60 @@
+/* ----- Global Styles ----- */
+
+  #home {
+    background: linear-gradient(90deg, var(--gradient-blue-start) 0%, var(--gradient-blue-end) 100%);
+  }
+
+/* ----- Mobile Styles ----- */
+@media screen and (max-width: 420px) {
+
+}
+
+/* ----- Tablet Styles ----- */
+@media screen and (min-width: 421px) and (max-width: 1179px) {
+  
+}
+
+/* ----- Desktop Styles ----- */
+@media screen and (min-width: 1180px) {
+  
+}
+
+/* 
+#home-section {
+  overflow: auto;
+  background: rgb(70,140,176);
+  
+  line-height: 1;
+  margin-top: -80px;
+  position: relative;
+  height: 90vh;
+}
+
+.home-contents {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  text-align: left;
+  padding-left: 15vw;
+}
+
+.overlay1 {
+  font-size: 6vw !important;
+  color: #121212;
+  margin-bottom: 0px;
+}
+
+.overlay2 {
+  font-size: 1.7vw !important;
+  font-weight: 400;
+  color: #121212;
+  letter-spacing: 7px;
+  padding-top: 7vh;
+}
+
+.blurb1 {
+  font-weight: 400 !important;
+  color: #121212;
+  font-size: 1.5vw !important;
+} */

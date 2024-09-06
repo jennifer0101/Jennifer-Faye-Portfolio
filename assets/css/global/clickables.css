@@ -1,0 +1,29 @@
+/* mouse over link */
+a:hover {
+  text-decoration: underline;
+}
+  
+/* selected link */
+a:active {
+  color: #333333;
+}
+
+.custom-button {
+  background-color: whitesmoke !important;
+  color: #031d2a !important;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  color:rgba(70,140,176,1) !important /* Change color on hover if needed */
+}
+
+.custom-button:focus {
+  outline: none; /* Remove focus outline */
+}
+
+.custom-button:active {
+  background-color: #bbb; /* Change color when clicked */
+}

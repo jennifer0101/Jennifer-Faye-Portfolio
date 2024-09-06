@@ -1,0 +1,38 @@
+body {
+  font-size: 18px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #121212;
+  line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500 !important;
+  font-style: bold !important;
+  line-height: 1.2 !important;
+}
+
+h1 {
+  font-size: 69px !important;
+}
+
+h2 {
+  font-size: 55px !important; 
+}
+
+h3 {
+  font-size: 44px !important;
+}
+
+h4 {
+  font-size: 35px !important; 
+}
+
+h5 {
+  font-size: 28px !important; 
+}
+
+h6 {
+  font-size: 23px !important; 
+}

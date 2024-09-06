@@ -1,0 +1,27 @@
+:root {
+
+  /* ----- Colors ----- */
+
+    /* ----- White and Black ----- */
+    --color-white: #fff;
+    --color-black: #121212;
+
+    /* ----- Grays ----- */
+    --gray-100: #EFEFEF;
+    --gray-200: #CFCFCF;
+    --gray-300: #B0B0B0;
+    --gray-400: #919191;
+    --gray-500: #727272;
+    --gray-600: #535353;
+    --gray-700: #444444;
+    --gray-800: #333333;
+    --gray-900: #222222;
+
+    /* -----Colors ----- */
+    --color-blue: rgb(70, 140, 176);
+    --color-light-blue: rgb(172, 235, 216);
+
+    /* ----- Gradients ----- */
+    --gradient-blue-start: var(--color-blue);
+    --gradient-blue-end: var(--color-light-blue);
+}

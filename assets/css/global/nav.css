@@ -1,0 +1,38 @@
+#desktop-nav {
+  overflow: hidden;
+  z-index: 4;
+  position: sticky;
+  top: 0;
+}
+
+#desktop-nav.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-wrapper a{
+  color: #121212 !important;
+}  
+
+.nav-wrapper {
+  background-color: rgba(0,0,0,0);
+}
+
+nav ul {
+  padding-right: 5%;
+}
+
+nav ul li {
+  font-weight: 600;
+}
+
+nav ul li:hover {
+  background: rgba(0,0,0,0.1);
+}
+
+@media screen and (max-width: 1179px) {
+  #desktop-nav {
+    display: none;
+  }
+}
