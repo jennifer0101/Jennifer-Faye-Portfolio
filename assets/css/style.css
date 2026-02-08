@@ -124,15 +124,14 @@ nav ul li:hover {
   overflow: auto;
 }
 
-#home-section {
-  overflow: auto;
-  background: rgb(70,140,176);
-  background: linear-gradient(90deg, rgba(70,140,176,1) 0%, rgba(172,235,216,1) 100%);
-  line-height: 1;
+#home-section{
   margin-top: -80px;
   position: relative;
-  height: 90vh; /* Set the height of the section */
+  min-height: clamp(420px, 70vh, 760px);
+  padding: clamp(96px, 12vh, 140px) 0;
+  background: linear-gradient(90deg, rgba(70,140,176,1) 0%, rgba(172,235,216,1) 100%);
 }
+
 
 #skills-section {
   overflow: auto;
@@ -147,36 +146,33 @@ nav ul li:hover {
 
 /* Center titles vertically */
 
-.home-contents {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  text-align: left;
-  padding-left: 15vw;
+.home-contents{
+  position: static;     
+  transform: none;
+  padding-left: var(--pad);
+  padding-right: var(--pad);
+  max-width: var(--container);
+  margin: 0 auto;
 }
 
 /* HOME SECTION */
-.overlay1 {
-  font-size: 6vw !important;
-  color: #121212;
-  margin-bottom: 0px;
+
+.overlay1{
+  margin-bottom: 0;
 }
 
-.overlay2 {
-  font-size: 1.7vw !important;
-  font-weight: 400;
-  color: #121212;
-  letter-spacing: 5px;
-  padding-top: 7vh;
-  line-height: 1.2;
+.overlay2{
+  font-size: clamp(14px, 1.2vw + 10px, 20px) !important;
+  letter-spacing: clamp(1px, 0.35vw, 5px);
+  padding-top: clamp(18px, 5vh, 48px);
+  line-height: 1.25;
 }
 
-.blurb1 {
+.blurb1{
   font-weight: 400 !important;
-  color: #121212;
-  font-size: 1.5vw !important;
-  line-height: 1.7;
+  font-size: clamp(14px, 1vw + 10px, 18px) !important;
+  line-height: 1.6;
+  max-width: 60ch;
 }
 
 /* PROJECTS SECTION  */
@@ -287,13 +283,13 @@ blockquote {
 }
 
 /* Carousel Testimonial */
-.carousel {
-  width: 300px;
-  overflow: hidden;
+.carousel{
+  width: min(900px, 92%);
   margin: 0 auto;
   position: relative;
   margin-bottom: 50px !important;
 }
+
 .testimonial {
   display: none;
   position: absolute;
@@ -753,466 +749,24 @@ p.little-sub {
   padding-bottom: 50px;
 }
 
-
-@media (max-width: 1450px) {
-  #mockup-phone {
-    margin-top: 9vh;
-  }
-}
-
-@media (max-width: 1300px) {
-  .overlay1 {
-    font-size: 7vw !important;
-  }
-  
-  .overlay2 {
-    font-size: 1.9vw !important;
-  }
-  
-  .blurb1 {
-    font-size: 1.7vw !important;
-  }
-
-  #home-section {
-    height: 80vh;
-  }
-
-  #redo-pic1 {
-    width: 100%;
-    margin-top: 7vh;
-  }
-
-  #mockup-phone {
-    width: 90%;
-    margin-top: 11vh;
-  }
-  
-  .c-og {
-    width: 90%;
-  }
-
-  #D-System {
-    width: 100%;
-    padding: 20px 0 20px 0;
-  }
-
-  #S-System {
-    padding: 20px 0 20px 0;
-  }
-}
-
-@media (max-width: 1150px) {
-  .overlay1 {
-    font-size: 7.5vw !important;
-  }
-  
-  .overlay2 {
-    font-size: 2vw !important;
-    padding-top: 6.5vh;
-  }
-  
-  .blurb1 {
-    font-size: 1.9vw !important;
-  }
-
-  .testimonial {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 1075px) {
-  #redo-pic1 {
-    width: 100%;
-    margin-top: 15vh;
-  }
-}
-
-@media (max-width: 992px) {
-  #mockup-phone {
-    clear: both;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    margin-top: 4vh;
-  }
-
-  #redo-pic1 {
-    clear: both;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    margin-top: 4vh;
-    padding-bottom: 20px;
-  }
-  
-  .overlay1 {
-    font-size: 8vw !important;
-  }
-
-  .overlay2 {
-    font-size: 3vw !important;
-    line-height: 1.4;
-    padding-top: 6vh;
-  }
-
-  .blurb1.hide-on-large-only {
-    margin-top: -15px;
-  }
-  
-  .blurb1 {
-    font-size: 2.4vw !important;
-  }
-
-  .career-id {
-    font-size: 18px;
-  }
-
-  body {
-    font-size: 18px !important;
-  }
-  
-  h1 {
-    font-size: 54px !important; 
-  }
-  
-  h2 {
-    font-size: 45px !important;
-  }
-  
-  h3 {
-    font-size: 37px !important; 
-  }
-  
-  h4 {
-    font-size: 31px !important;
-  }
-  
-  h5 {
-    font-size: 26px !important;
-  }
-  
-  h6 {
-    font-size: 22px !important; 
-  }
-
-  .home-contents {
-    padding-left: 10vw;
-  }
-
-  .top-wrapper {
-
-    height: 880px;
-  }
-
-  .text-emphasis {
-    font-size: 28px !important;
-  }
-
-  .persona-pics {
-    padding: 0px;
-  }
-
-  .mood-pics {
-    margin-bottom: 10px;
-  }
-
-  #D-System {
-    padding: 10px 0 10px 0;
-  }
-
-  #S-System {
-    padding: 10px 0 10px 0;
-  }
-
-  video {
-    width: 500px;
-  }
-}
-
-@media (max-width: 950px) {
-  .overlay1 {
-    font-size: 8.75vw !important;
-  }
-
-  #home-section {
-    height: 75vh; 
-  }
-}
-
-@media (max-width: 857px) {
-  .testimonial {
-    font-size: 18px;
-  }
-
-  .career-id {
-    font-size: 16px;
-  }
-
-  .top-wrapper {
-    height: 820px;
-  }
-}
-
-@media (max-width: 830px) {
-  .overlay2 {
-    font-size: 3.5vw !important;
-  }
-
-  .blurb1 {
-    font-size: 2.8vw !important;
-  }
-}
-
-@media (max-width: 750px) {
-  .overlay2 {
-    font-size: 3.8vw !important;
-  }
-
-  .blurb1 {
-    font-size: 3vw !important;
-  }
-
-  .top-wrapper {
-    height: 775px;
-  }
-}
-
-@media (max-width: 660px) {
-  #home-section {
-    height: 70vh; 
-  }
-
-  .blurb1 {
-    font-size: 3.5vw !important;
-  }
-
-  .testimonial {
-    font-size: 16px;
-  }
-
-  .career-id {
-    font-size: 14px;
-  }  
-
-  .top-wrapper {
-    height: 725px;
-  }
-
-  video {
-    width: 475px;
-  }
-}
-
+/* Phones */
 @media (max-width: 600px){
-  body {
-    font-size: 16px !important;
-  }
-  
-  h1 {
-    font-size: 32px !important; 
-  }
-  
-  h2 {
-    font-size: 29px !important;
-  }
-  
-  h3 {
-    font-size: 26px !important; 
-  }
-  
-  h4 {
-    font-size: 23px !important;
-  }
-  
-  h5 {
-    font-size: 20px !important;
-  }
-  
-  h6 {
-    font-size: 18px !important; 
-  }
+  .indent{ margin-left: 16px; }
+  .rectangle{ width: 92%; }
+}
 
-  #home-section {
-    height: 62vh;
-  }
-  .prev {
-    padding-left: 10px;
-  }
-
-  .next {
-    padding-right: 10px;
-  }
-
-  .top-wrapper {
-    height: 675px;
-  }
-
-  .text-emphasis {
-    font-size: 22px !important;
-  }
-
-  #proto-pic1, #proto-pic2, #proto-pic3 {
-    width: 40%;
-  }
-
-  .persona-pics {
-    padding: 10px;
-  }
-    
-  .c-og {
-    width: 50%;
-  }
-
-  .c-og {
-    margin-bottom: 16px;
-  }
-
-  .responsive-m {
-    margin-bottom: 16px;
-  }
-
-  .tablet {
-    margin-left: 0%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-  }
-  .phone {
-    margin-left: 0%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-  .m-top {
-    margin-top: 10px;
+/* Tablets and down */
+@media (max-width: 992px){
+  .home-contents{
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 }
 
-@media (max-width: 550px){
-  #home-section {
-    height: 62vh; 
-  }
-
-  .overlay2 {
-    font-size: 4vw !important;
-  }
-
-  .blurb1 {
-    font-size: 3.8vw !important;
-  }
-
-  .testimonial {
-    font-size: 15px;
-  }
-
-  .top-wrapper {
-    height: 650px;
+/* Large screens */
+@media (min-width: 1200px){
+  .home-contents{
+    padding-left: 15vw;
   }
 }
 
-@media (max-width: 500px){
-  .top-wrapper {
-    height: 625px;
-  }
-
-  #proto-pic1, #proto-pic2, #proto-pic3 {
-    width: 60%;
-  }
-
-  video {
-    width: 450px;
-  }
-}
-
-@media (max-width: 450px){
-  #home-section {
-    height: 55vh; 
-  }
-
-  .top-wrapper {
-    height: 600px;
-  }
-
-  video {
-    width: 400px;
-  }
-}
-
-@media (max-width: 400px){
-  #home-section {
-    height: 50vh; 
-  }
-
-  .overlay2 {
-    font-size: 4vw !important;
-  }
-
-  .blurb1 {
-    font-size: 4vw !important;
-  }
-
-  .blurb1.hide-on-large-only {
-    margin-top: 0px;
-  }
-
-  .testimonial {
-    font-size: 14px;
-  }
-
-  .career-id {
-    font-size: 12px;
-  }
-
-  .prev {
-    padding-left: 5px;
-  }
-
-  .next {
-    padding-right: 5px;
-  }
-
-  .top-wrapper {
-    height: 575px;
-  }
-
-  video {
-    width: 350px;
-  }
-}
-
-@media (max-width: 370px){
-  #home-section {
-    height: 40vh;
-  }
-
-  .testimonial {
-    font-size: 13px;
-  }
-
-  .career-id {
-    font-size: 10px;
-  }
-
-  .top-wrapper {
-    height: 550px;
-  }
-
- 
-}
-
-@media (max-width: 320px){
-  video {
-    width: 320px;
-  }
-}
-
-@media (max-width: 256px){
-  .top-wrapper {
-    height: 570px;
-  }
-} 
