@@ -122,15 +122,12 @@ nav ul li:hover {
 /* page sections */
 
 #home-section{
-  display: flex;
-  align-items: center; 
   margin-top: -80px;
   position: relative;
   min-height: clamp(420px, 70vh, 760px);
   padding: clamp(96px, 12vh, 140px) 0;
   background: linear-gradient(90deg, rgba(70,140,176,1) 0%, rgba(172,235,216,1) 100%);
 }
-
 
 #skills-section {
   overflow: auto;
@@ -148,33 +145,31 @@ nav ul li:hover {
 .home-contents{
   max-width: none;
   margin: 0;
-  padding-left: clamp(6vw, 8vw, 12vw);
-  padding-right: clamp(6vw, 8vw, 12vw);
+  padding-top: clamp(64px, 14vh, 170px);
+  padding-bottom: clamp(56px, 12vh, 140px);
   text-align: left;
 }
-
-
 
 /* HOME SECTION */
 
 .overlay1{
-  font-size: clamp(48px, 7vw, 120px) !important;
-  font-weight: 100 !important;
-  margin-bottom: 0;
+  font-size: clamp(44px, 6vw, 96px) !important;
+  font-weight: 500 !important;
+  margin-bottom: clamp(12px, 2vh, 24px);
 }
 
 .overlay2{
-  font-size: clamp(16px, 1.6vw + 12px, 28px) !important;
-  letter-spacing: clamp(2px, 0.4vw, 6px);
-  padding-top: clamp(20px, 6vh, 56px);
-  line-height: 1.25;
+  font-size: clamp(18px, 2vw + 10px, 30px) !important;
+  letter-spacing: clamp(2px, 0.35vw, 5px);
+  line-height: 1.3;
+  margin: 0 0 2vh 0;
 }
 
 .blurb1{
+  font-size: clamp(16px, 1.1vw + 12px, 21px) !important;
+  line-height: 1.65;
+  max-width: 62ch;
   font-weight: 400 !important;
-  font-size: clamp(16px, 1.2vw + 12px, 22px) !important;
-  line-height: 1.6;
-  max-width: 60ch;
 }
 
 /* PROJECTS SECTION  */
