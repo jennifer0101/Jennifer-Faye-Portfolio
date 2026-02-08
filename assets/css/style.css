@@ -9,7 +9,7 @@
   --h6: clamp(16px, 1.2vw + 10px, 23px);
 
   --container: 1100px;
-  --pad: clamp(16px, 4vw, 64px);
+  --pad: clamp(16px, 5vw, 80px);
 }
 
 body {
@@ -120,11 +120,10 @@ nav ul li:hover {
 }
 
 /* page sections */
-#pic-section, #about-section, #project-section, #case-section {
-  overflow: auto;
-}
 
 #home-section{
+  display: flex;
+  align-items: center; 
   margin-top: -80px;
   position: relative;
   min-height: clamp(420px, 70vh, 760px);
@@ -135,7 +134,7 @@ nav ul li:hover {
 
 #skills-section {
   overflow: auto;
-  line-height: 1;
+  line-height: 1.4; 
 }
 
 #contact-section {
@@ -147,30 +146,33 @@ nav ul li:hover {
 /* Center titles vertically */
 
 .home-contents{
-  position: static;     
-  transform: none;
-  padding-left: var(--pad);
-  padding-right: var(--pad);
-  max-width: var(--container);
-  margin: 0 auto;
+  max-width: none;
+  margin: 0;
+  padding-left: clamp(6vw, 8vw, 12vw);
+  padding-right: clamp(6vw, 8vw, 12vw);
+  text-align: left;
 }
+
+
 
 /* HOME SECTION */
 
 .overlay1{
+  font-size: clamp(48px, 7vw, 120px) !important;
+  font-weight: 100 !important;
   margin-bottom: 0;
 }
 
 .overlay2{
-  font-size: clamp(14px, 1.2vw + 10px, 20px) !important;
-  letter-spacing: clamp(1px, 0.35vw, 5px);
-  padding-top: clamp(18px, 5vh, 48px);
+  font-size: clamp(16px, 1.6vw + 12px, 28px) !important;
+  letter-spacing: clamp(2px, 0.4vw, 6px);
+  padding-top: clamp(20px, 6vh, 56px);
   line-height: 1.25;
 }
 
 .blurb1{
   font-weight: 400 !important;
-  font-size: clamp(14px, 1vw + 10px, 18px) !important;
+  font-size: clamp(16px, 1.2vw + 12px, 22px) !important;
   line-height: 1.6;
   max-width: 60ch;
 }
@@ -265,7 +267,7 @@ nav ul li:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  font-size: 18px;
+  font-size: inherit; 
   width: 80%;
 }
 
@@ -275,7 +277,7 @@ nav ul li:hover {
 
 .career-id {
   color: #333333;
-  font-size: 20px;
+  font-size: clamp(14px, .6vw + 12px, 18px);
 }
 
 blockquote {
@@ -298,7 +300,7 @@ blockquote {
   transform: translate(-50%, -50%);
   width: 80%; 
   background-color: whitesmoke;
-  font-size: 24px;
+  font-size: clamp(16px, 1vw + 12px, 22px);
 }
 
 .testimonial p {
@@ -757,16 +759,16 @@ p.little-sub {
 
 /* Tablets and down */
 @media (max-width: 992px){
-  .home-contents{
+  /* .home-contents{
     padding-left: 10vw;
     padding-right: 10vw;
-  }
+  } */
 }
 
 /* Large screens */
 @media (min-width: 1200px){
-  .home-contents{
+  /* .home-contents{
     padding-left: 15vw;
-  }
+  } */
 }
 
