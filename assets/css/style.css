@@ -420,16 +420,6 @@ footer {
   overflow: auto;
 }
 
-/*CASE STUDY PAGES GLOBAL SETTINGS */
-#case-section {
-  padding-bottom: 50px;
-}
-
-#case-section section,
-#case-section .row {
-  padding-bottom: 50px;
-}
-
 /* REDO GURU PAGE */
 p.little-sub {
   font-weight: 600;
