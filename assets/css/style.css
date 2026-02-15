@@ -59,9 +59,9 @@ a:active {
   width: 100%;
 }
 
-.sticky + .content {
+/* .sticky + .content {
   padding-top: 60px;
-}
+} */
 
 .subtitle-center {
   text-align: center;

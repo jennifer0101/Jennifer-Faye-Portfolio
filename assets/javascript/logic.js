@@ -14,16 +14,15 @@
 
     // Side Navigation Configuration
     $('.sidenav').sidenav({
-      menuWidth: 300,
       closeOnClick: true,
       draggable: true
     });
 
     // Carousel Initialization
-    $('.carousel.carousel-slider').carousel({
-      fullWidth: true,
-      indicators: true
-    });
+    // $('.carousel.carousel-slider').carousel({
+    //   fullWidth: true,
+    //   indicators: true
+    // });
 
     // Sticky Navigation Implementation with Initial Display
     const navbar = $("#contents-wrapper"); // Use jQuery selector for navbar
@@ -52,7 +51,7 @@
     }
 
     // Call changeTestimonial on initial page load (optional)
-    changeTestimonial(1);
+    changeTestimonial(0);
 
     // Add event listeners for arrows (replace with YOUR ACTUAL IDs or classes)
     document.querySelectorAll('.prev').forEach(arrow => {
