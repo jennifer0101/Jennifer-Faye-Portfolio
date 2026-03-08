@@ -233,7 +233,8 @@ nav ul li:hover {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  background-color: whitesmoke;
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
   padding: 24px 20px;
 }
 
@@ -303,7 +304,7 @@ blockquote {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%; 
-  background-color: whitesmoke;
+  background-color: #ffffff;
   font-size: clamp(16px, 1vw + 12px, 22px);
 }
 
@@ -333,7 +334,7 @@ blockquote {
 }
 
 .custom-button {
-  background-color: whitesmoke !important;
+  background-color: #ffffff !important;
   color: #031d2a !important;
   border: none;
   outline: none;
@@ -621,7 +622,8 @@ p.little-sub {
 .inner-box {
   padding: 30px 80px 30px 80px;
   margin: 20px 0 20px 0;
-  background-color: whitesmoke;
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
   border-top-left-radius: 100px;
   border-bottom-right-radius: 100px;
 }
@@ -629,7 +631,8 @@ p.little-sub {
 .outer-box {
   padding: 30px 80px 30px 80px;
   margin: 20px;
-  background-color: whitesmoke;
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
   border-top-left-radius: 100px;
   border-bottom-right-radius: 100px;
 }
@@ -791,7 +794,6 @@ p.little-sub {
   width: 92%;
   gap: 16px;
   padding: 20px 12px;
-  margin-bottom: 40px;
 }
 
 .wrap-one{
