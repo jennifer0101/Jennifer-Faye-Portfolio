@@ -225,12 +225,16 @@ nav ul li:hover {
 }
 
 /* SKILLS SECTION   */
-.rectangle {
-  display: block;
+.rectangle{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  background-color:whitesmoke;
+  background-color: whitesmoke;
+  padding: 24px 20px;
 }
 
 .each-logo {
@@ -241,17 +245,17 @@ nav ul li:hover {
   margin-right: auto;
 }
 
-.logo-title {
+.logo-title{
+  width: 100%;
   padding: 20px !important;
 }
 
-.wrap-one {
+.wrap-one{
+  flex: 0 1 120px;
   text-align: center !important;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin: 0;
   font-size: 12px;
-} 
+}
 
 /* ABOUT SECTION   */
 #jen1 {
@@ -781,6 +785,17 @@ p.little-sub {
 
   #jen1 {
   width: 18vw;
+}
+
+.rectangle{
+  width: 92%;
+  gap: 16px;
+  padding: 20px 12px;
+  margin-bottom: 40px;
+}
+
+.wrap-one{
+  flex: 0 1 90px;
 }
 }
 
