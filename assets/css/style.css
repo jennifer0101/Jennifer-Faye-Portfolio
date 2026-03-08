@@ -124,9 +124,15 @@ nav ul li:hover {
 #home-section{
   margin-top: -80px;
   position: relative;
-  min-height: clamp(420px, 70vh, 760px);
-  padding: clamp(96px, 12vh, 140px) 0;
+  padding: clamp(110px, 12vh, 160px) 0;
   background: linear-gradient(90deg, rgba(70,140,176,1) 0%, rgba(172,235,216,1) 100%);
+}
+
+#home-section .row{
+  min-height: clamp(500px, 75vh, 900px);
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
 }
 
 #skills-section {
@@ -145,21 +151,19 @@ nav ul li:hover {
 .home-contents{
   max-width: none;
   margin: 0;
-  padding-top: clamp(64px, 14vh, 170px);
-  padding-bottom: clamp(56px, 12vh, 140px);
   text-align: left;
 }
 
 /* HOME SECTION */
 
 .overlay1{
-  font-size: clamp(44px, 6vw, 96px) !important;
+  font-size: clamp(52px, 6.5vw, 88px) !important;
   font-weight: 500 !important;
   margin-bottom: clamp(12px, 2vh, 24px);
 }
 
 .overlay2{
-  font-size: clamp(18px, 2vw + 10px, 30px) !important;
+  font-size: clamp(22px, 3vw + 10px, 32px) !important;
   letter-spacing: clamp(2px, 0.35vw, 5px);
   line-height: 1.3;
   max-width: 62ch;
@@ -167,7 +171,7 @@ nav ul li:hover {
 }
 
 .blurb1{
-  font-size: clamp(16px, 1.1vw + 12px, 21px) !important;
+  font-size: clamp(18px, 1.6vw + 12px, 22px) !important;
   line-height: 1.65;
   max-width: 62ch;
   font-weight: 400 !important;
@@ -751,6 +755,51 @@ p.little-sub {
 @media (max-width: 600px){
   .indent{ margin-left: 16px; }
   .rectangle{ width: 92%; }
+
+  #home-section{
+    padding: 120px 0 60px 0;
+  }
+
+  #home-section .row{
+    min-height: 375px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .overlay1{
+    font-size: clamp(38px, 9vw, 48px) !important;
+  }
+
+  .overlay2{
+    font-size: 22px !important;
+  }
+
+  .blurb1{
+    font-size: 18px !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 992px){
+  #home-section{
+    padding: 110px 0 40px 0;
+  }
+
+  #home-section .row{
+    min-height: 480px;
+  }
+
+  .overlay1{
+    font-size: 60px !important;
+  }
+
+  .overlay2{
+    font-size: 26px !important;
+  }
+
+  .blurb1{
+    font-size: clamp(18px, 2vw, 21px) !important;
+  }
 }
 
 /* Tablets and down */
