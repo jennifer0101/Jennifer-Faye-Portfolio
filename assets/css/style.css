@@ -12,7 +12,7 @@
   --pad: clamp(16px, 5vw, 80px);
 }
 
-body {
+body, p {
   font-size: var(--text);
   font-family: "futura-pt", sans-serif;
   font-weight: 400;
@@ -21,7 +21,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6{
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   line-height: 1.2 !important;
 }
 
@@ -31,6 +31,10 @@ h3{ font-size: var(--h3) !important; }
 h4{ font-size: var(--h4) !important; }
 h5{ font-size: var(--h5) !important; }
 h6{ font-size: var(--h6) !important; }
+
+p + p {
+  margin-top: 1em;
+}
   
 /* mouse over link */
 a:hover {
@@ -159,7 +163,7 @@ nav ul li:hover {
 
 .overlay1{
   font-size: clamp(52px, 6.5vw, 88px) !important;
-  font-weight: 500 !important;
+
   margin-bottom: clamp(12px, 2vh, 24px);
 }
 
@@ -175,7 +179,7 @@ nav ul li:hover {
   font-size: clamp(18px, 1.6vw + 12px, 24px) !important;
   line-height: 1.65;
   max-width: 62ch;
-  font-weight: 400 !important;
+
 }
 
 /* PROJECTS SECTION  */
@@ -214,6 +218,7 @@ nav ul li:hover {
 
 .card-skills {
   font-weight: 600;
+  padding-bottom: 10px;
 }
 
 .card-content {
@@ -574,7 +579,7 @@ p.little-sub {
   padding: 40px 50px 40px 50px;
 }
 
-.bullet {
+/* .bullet {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -584,7 +589,7 @@ p.little-sub {
 
 .bullet2 {
   margin-top: 15px;
-}
+} */
 
 .materialboxed {
   display: block;
