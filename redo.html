@@ -1,349 +1,537 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Jennifer Faye Portfolio</title>
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <!--Import Adobe Font-->
-    <link rel="stylesheet" href="https://use.typekit.net/lqh6vop.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lqh6vop.css" />
     <!-- Link to CSS reset sheet-->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
     <!-- Link to CSS style sheet-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <!-- Link to Materialize-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <!-- responsive screen size viewport code-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- ****** faviconit.com favicons ****** -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
     <!-- <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico"> -->
-    <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
-    <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
-    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
-    <link rel="apple-touch-icon" href="/favicon-57.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
-    <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="msapplication-TileImage" content="/favicon-144.png">
-    <meta name="msapplication-config" content="/browserconfig.xml">
-</head>
+    <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png" />
+    <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="apple-touch-icon" href="/favicon-57.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/favicon-144.png" />
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+  </head>
 
-<body>
-
+  <body>
     <!-- Sidenav slide out on mobile -->
     <div id="pic-section">
-        <div id="sidebar-wrapper" class="hide-on-large-only">
-            <!-- sidenav trigger hamburger -->
-            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul id="slide-out" class="sidenav">
-                <li><div class="user-view">
-                    <div class="background">
-                        <img src="assets/images/hero-side-nav.jpg">
-                    </div>
-                    <a href="#user"><img class="circle" src="assets/images/Jen2.jpg"></a>
-                    <a href="#name"><span class="white-text name">Jennifer Faye</span></a>
-                    <a href="#email"><span class="white-text email">jennifer@fayecreative.com</span></a>
-                </div></li>
-                    <li><a class="sidenav-close waves-effect" href="index.html">Home</a></li>
-                    <li><a class="sidenav-close waves-effect" href="#case">Case Study</a></li>
-                    <li><a class="sidenav-close waves-effect" href="#contact2">Contact</a></li>
-                    <li>
-                    <div class="divider"></div>
-                    </li>
-                    <li><a class="sidenav-close waves-effect"
-                    href="https://docs.google.com/document/d/1GXh6dh4BfpZ-uRe0ec8UNnjKlsZq2SSgsTkg1aXT_FE/edit?usp=sharing"
-                    target="_blank" rel="noopener noreferrer"> Resume</a></li>
+      <div id="sidebar-wrapper" class="hide-on-large-only">
+        <!-- sidenav trigger hamburger -->
+        <a href="#" data-target="slide-out" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul id="slide-out" class="sidenav">
+          <li>
+            <div class="user-view">
+              <div class="background">
+                <img src="assets/images/hero-side-nav.jpg" />
+              </div>
+              <a href="#user"
+                ><img class="circle" src="assets/images/Jen2.jpg"
+              /></a>
+              <a href="#name"
+                ><span class="white-text name">Jennifer Faye</span></a
+              >
+              <a href="#email"
+                ><span class="white-text email"
+                  >jennifer@fayecreative.com</span
+                ></a
+              >
+            </div>
+          </li>
+          <li>
+            <a class="sidenav-close waves-effect" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="sidenav-close waves-effect" href="#case">Case Study</a>
+          </li>
+          <li>
+            <a class="sidenav-close waves-effect" href="#contact2">Contact</a>
+          </li>
+          <li>
+            <div class="divider"></div>
+          </li>
+          <li>
+            <a
+              class="sidenav-close waves-effect"
+              href="https://docs.google.com/document/d/1GXh6dh4BfpZ-uRe0ec8UNnjKlsZq2SSgsTkg1aXT_FE/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!--blurb, navbar -->
+      <div id="contents-wrapper">
+        <nav class="transparent">
+          <div class="nav-wrapper z-depth-1">
+            <ul class="right hide-on-med-and-down">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#case">Case Study</a></li>
+              <li><a href="#contact2">Contact</a></li>
+              <li>
+                <a
+                  href="https://docs.google.com/document/d/1GXh6dh4BfpZ-uRe0ec8UNnjKlsZq2SSgsTkg1aXT_FE/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Resume</a
+                >
+              </li>
             </ul>
-        </div>
-    
-        <!--blurb, navbar -->
-        <div id="contents-wrapper">
-            <nav class="transparent">
-                <div class="nav-wrapper z-depth-1">
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#case">Case Study</a></li>
-                        <li><a href="#contact2">Contact</a></li>
-                        <li><a href="https://docs.google.com/document/d/1GXh6dh4BfpZ-uRe0ec8UNnjKlsZq2SSgsTkg1aXT_FE/edit?usp=sharing"
-                                        target="_blank" rel="noopener noreferrer">Resume</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+          </div>
+        </nav>
+      </div>
     </div>
 
     <!-- CASE STUDY SECTION -->
     <div id="case-section">
-        <div id="case" class="section scrollspy">
-            <div id="img-top"> 
-                <div class="container">
-                    <div class="top-wrapper">
-                        <div class="row">
-                            <div class="col l5 m12 s12">
-                                <h1>Redo Guru</h1>
-                                <h6>A mobile responsive website application for homeowners looking for expert guidance on their home improvement projects.</h6>
-                                <p class="little-sub">Role</p>
-                                <p>Product Designer</p>
-                                <p class="little-sub">Expertise</p>
-                                <p>Figma, Mobile Design, Responsive Design, Design System, Prototyping, User Interviews, User Research</p>
-                            </div>
-                            <div class="col l7 m12 s12">
-                                <img id="redo-pic1" src="assets/images/responsive.png">
-                            </div>
-                        </div>
-                    </div>
+      <div id="case" class="section scrollspy">
+        <div id="img-top">
+          <div class="container">
+            <div class="top-wrapper">
+              <div class="row">
+                <div class="col l5 m12 s12">
+                  <h1>Redo Guru</h1>
+                  <h6>
+                    A mobile responsive website application for homeowners
+                    looking for expert guidance on their home improvement
+                    projects.
+                  </h6>
+                  <p class="little-sub">Role</p>
+                  <p>Product Designer</p>
+                  <p class="little-sub">Expertise</p>
+                  <p>
+                    Figma, Mobile Design, Responsive Design, Design System,
+                    Prototyping, User Interviews, User Research
+                  </p>
                 </div>
+                <div class="col l7 m12 s12">
+                  <img id="redo-pic1" src="assets/images/responsive.png" />
+                </div>
+              </div>
             </div>
-
-            <!--Case Study-->
-            <div class="container">
-                <h3 class="center-align">Overview</h3>
-                <div class="row">
-                    <div class="col l12">
-                        <ul>
-                            <li class="bullet2">• Redo Guru is a web application which facilitates video or text chats between homeowners and home improvement experts.</li> 
-                            <li class="bullet2">• Homeowners are able to seek affordable professional guidance in order to complete home improvement projects on their own.</li> 
-                            <li class="bullet2">• Redo Guru represents a web application project undertaken during the course of a User Experience  educational program.</li>
-                        </ul>
-                    </div>
-                </div>
-                <h3 class="center-align">Understanding the Problem</h3>
-                <div class="row">
-                    <div class="col l12">
-                        <p class="text-emphasis quote-shell z-depth-1">
-                            I hypothesized that homeowners need a way to chat with home improvement experts in order to receive guidance so that they can complete their home improvement projects on their own. 
-                        </p>
-                        <p class="text-block">
-                            To test my hypothesis I conducted user research creating an online survey which gathered responses from 21 people. I also conducted user interviews with 4 individuals. The survey yielded some interesting results. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row survey-wrapper">
-                <div class="col l4 m4 s12">
-                    <img class="survey-pics materialboxed" style="width: 95%" src="assets/images/survey1.png">
-                </div>
-                <div class="col l4 m4 s12">
-                    <img class="survey-pics materialboxed" style="width: 95%" src="assets/images/survey2.png">
-                </div>
-                <div class="col l4 m4 s12">
-                    <img class="survey-pics materialboxed" style="width: 95%" src="assets/images/survey3.png">
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col l12">
-                        <p>
-                            My main goals during my user interviews were to find out how much time homeowners are spending researching their projects, and who they are currently turning to for help. After interviewing 4 individuals about their experiences, I collected the following data:
-                        </p>
-                        <ul>
-                            <li class="bullet">• Homeowners utilize a mix of friends, family, hardware store employees, online research and how-to videos to research their home improvement projects.</li>
-                            <li class="bullet">• Homeowners may receive inaccurate or conflicting advice from both in-person and online sources.</li>
-                            <li class="bullet">• Homeowners have a desire to do projects themselves in order to save money.</li>
-                            <li class="bullet">• Homeowners spend hours researching their projects before attempting them, often needing to return to the research phase when hitting a roadblock. </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <img id="affinity" src="assets/images/affinity.png">
-
-            <div class="container">
-                <div class="row">
-                     <div class="col l12">
-                        <p>
-                            In order to understand my users better, I created two distinct user personas from the four interviews I did. These personas had different motivations and frustrations. One was more excited to attempt DIY projects on her own. The other was more likely to hire a professional. I was up to the challenge of creating an app that would serve the needs of both types of homeowners. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row persona-wrapper">
-                <div class="col l6 m6 s12">
-                    <img class="persona-pics materialboxed" style="width:100%" src="assets/images/persona1.png">
-                </div>
-                <div class="col l6 m6 s12">
-                    <img class="persona-pics materialboxed" style="width:100%" src="assets/images/persona2.png">
-                </div>
-            </div>
-                <div class="container">
-                <h3 class="center-align">Creating Solutions</h3>
-                    <div class="row">
-                        <div class="col l12">
-                            <p class="text-block">
-                            Now that I had a full understanding of what homeowners needed from this app, I created a sitemap. I did a card sort on the sitemap and made adjustments based on those results. I then created some low fidelity user flows, first drawing them out on paper, and later creating low fidelity wireframes in Figma. 
-                            <br><br>
-                            I designed three different wireframe user flows. Users can log into the app where they will be able to access their favorited experts, and other saved data specific to their account. Users can browse experts in their area and search by what specialty they need help with. They are then able to scan through search results, and favorite the expert they wish to work with. There are also three different payment plans which can be chosen based on the user's specific needs.   
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <h3 class="center-align">Low-Fidelity Wireframes</h3>
-                <p class="little-sub center-align">Login</p>
-                <img id="wire-pics1" class="materialboxed" src="assets/images/wireframes1.png">
-                <p class="little-sub center-align">Browse Experts</p>
-                <img id="wire-pics2" class="materialboxed" src="assets/images/wireframes2.png">
-                <p class="little-sub center-align">Collect Payment</p>
-                <img id="wire-pics3" class="materialboxed" src="assets/images/wireframes3.png">
-
-            <div class="container">
-                <h3 class="center-align">Validating the Design</h3>
-                <div class="row">
-                     <div class="col l12">
-                        <p class="text-block">
-                            Through moderated in-person usability testing, I was able to assess learnability and errors for new users as I tested to see if they could navigate through the app and complete basic functions. I tested six subjects of different genders, ranging in age from 18-24 to 40-49. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <img class="participants-pic" src="assets/images/participants.png">
-
-            <div class="container">
-                <div class="row">
-                    <div class="col l12">
-                        <p>
-                            The results of my testing yielded several observations and user errors. Taking all this data into account, I revised my wireframes to enable a more intuitive user experience. I soon had a new set of high fidelity wireframes with much improved user flows.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <h3 class="center-align">Creating a Design System</h3>
-                <div class="row">
-                     <div class="col l12">
-                        <p>
-                           I then created a style guide for the app in order to determine a color palette, typography, and the style of images to be used. Once I had these design features down, I created a design system with reusable components that I would be able to easily use in my app design. This ensured consistency throughout the application on both desktop and mobile views, as well as grids and common breakpoints in order to build a responsive website application.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="outer-box z-depth-1">
-                <img id="D-System" src="assets/images/D_System.png">
-            </div>
-
-            <div class="container">
-                <h3 class="center-align">Mockups</h3>
-                    <div class="row">
-                        <div class="col l12">
-                            <p>
-                            After completing the high fidelity wireframes, I then iterated over the designs implementing Gestalt principles. 
-                            I participated in a design collaboration and was able to apply many of the suggestions made through this process. 
-                            Finally I was able to design mockups for each selected user flow as well as clickable prototypes.  
-                            </p>
-                        </div>
-                    </div>
-            </div>
-
-            <p class="center-align little-sub">Login</p>
-            <img id="mock-pics1" src="assets/images/mockup1.png">
-            <p class="center-align little-sub">Browse Experts</p>
-            <img id="mock-pics2" src="assets/images/mockup2.png">
-            <p class="center-align little-sub">Collect Payment</p>
-            <img id="mock-pics3" src="assets/images/mockup3.png">
-
-            <div class="container img-container">
-                <h3 class="center-align">Clickable Prototypes</h3>
-                <p class="center-align">
-                        Click on each user flow to interact with the prototypes:
-                    </p>
-                    <br><br>
-                <div class="row">
-                    <div class="col l4 m4 s12">
-                        <p class="proto-text little-sub">Login</p>
-                        <a href="https://www.figma.com/proto/s4L5gW2iga3owteCNF3bOV/REDO-GURU-High-Fidelity?type=design&node-id=2-4524&t=FgOO0Z0EiTml1vaZ-1&scaling=scale-down&page-id=2%3A3258&starting-point-node-id=2%3A4524&mode=design" target="_blank">
-                        <img class="proto-image" id="proto-pic1" src="assets/images/proto1.png" alt="prototype">
-                        </a>
-                    </div>
-                    <div class="col l4 m4 s12">
-                        <p class="proto-text little-sub">Browse Experts</p>
-                        <a href="https://www.figma.com/proto/s4L5gW2iga3owteCNF3bOV/REDO-GURU-High-Fidelity?type=design&node-id=6-6829&t=XLBewOC31y23EqzP-1&scaling=scale-down&page-id=5%3A5847&starting-point-node-id=6%3A6829&mode=design" target="_blank">
-                        <img class="proto-image" id="proto-pic2" src="assets/images/proto2.png" alt="prototype">
-                        </a>
-                    </div>
-                    <div class="col l4 m4 s12">
-                        <p class="proto-text little-sub">Collect Payment</p>
-                        <a href="https://www.figma.com/proto/s4L5gW2iga3owteCNF3bOV/REDO-GURU-High-Fidelity?type=design&node-id=7-10176&t=e8wybGTHYB83ZA42-1&scaling=scale-down&page-id=7%3A8797&starting-point-node-id=7%3A10176&mode=design" target="_blank">
-                        <img class="proto-image" id="proto-pic3" src="assets/images/proto3.png" alt="prototype">
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-                <div class="container">
-                <h3 class="center-align">Conclusion</h3>
-                    <div class="row">
-                        <div class="col l12">
-                            <p>
-                                Gathering user data and conducting user testing provided me ample insights into this project. I was able to use that data
-                                to plan user flows that really benefit homeowners using the app. 
-                                <br><br>
-                                I think there is room for improvement on the UI of the app. I plan to implement more consistent spacing using an 8pt grid, and
-                                redesign the home page on the mobile view. I would also like to design a set of unique icons specific to this app. In the future, 
-                                I will create mood boards and select one to go with in order to have a more clear visual design direction sooner in the project.
-                                <br><br>
-                                My user persona, Kayla, can now easily join Redo Guru at the Plus Plan level and receive 3 video or text chat sessions 
-                                for $30.00 per month. As she plans to build her 300 square foot deck, Kayla weighs the costs of hiring a professional 
-                                versus having Redo Guru guide her through her project. Kayla finds that hiring a professional would cost her $9,000.00, 
-                                but doing it herself would only cost $3,030.00 - the cost of materials, plus a months subscription to Redo Guru. Kayla will 
-                                save $5,970.00 on her project! She will also have the satisfaction of having completed it herself, without spending hours of 
-                                her time researching how to do it because she has a Redo Guru she can chat with to give her expert advice.    
-                            </p>
-                        </div>
-                    </div>
-                </div>
+          </div>
         </div>
+
+        <!--Case Study-->
+        <div class="container">
+          <h3 class="center-align">Overview</h3>
+          <div class="row">
+            <div class="col l12">
+              <ul>
+                <li class="bullet2">
+                  • Redo Guru is a web application which facilitates video or
+                  text chats between homeowners and home improvement experts.
+                </li>
+                <li class="bullet2">
+                  • Homeowners are able to seek affordable professional guidance
+                  in order to complete home improvement projects on their own.
+                </li>
+                <li class="bullet2">
+                  • Redo Guru represents a web application project undertaken
+                  during the course of a User Experience educational program.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <h3 class="center-align">Understanding the Problem</h3>
+          <div class="row">
+            <div class="col l12">
+              <p class="text-emphasis quote-shell z-depth-1">
+                I hypothesized that homeowners need a way to chat with home
+                improvement experts in order to receive guidance so that they
+                can complete their home improvement projects on their own.
+              </p>
+              <p class="text-block">
+                To test my hypothesis I conducted user research creating an
+                online survey which gathered responses from 21 people. I also
+                conducted user interviews with 4 individuals. The survey yielded
+                some interesting results.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row survey-wrapper">
+          <div class="col l4 m4 s12">
+            <img
+              class="survey-pics materialboxed"
+              style="width: 95%"
+              src="assets/images/survey1.png"
+            />
+          </div>
+          <div class="col l4 m4 s12">
+            <img
+              class="survey-pics materialboxed"
+              style="width: 95%"
+              src="assets/images/survey2.png"
+            />
+          </div>
+          <div class="col l4 m4 s12">
+            <img
+              class="survey-pics materialboxed"
+              style="width: 95%"
+              src="assets/images/survey3.png"
+            />
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col l12">
+              <p>
+                My main goals during my user interviews were to find out how
+                much time homeowners are spending researching their projects,
+                and who they are currently turning to for help. After
+                interviewing 4 individuals about their experiences, I collected
+                the following data:
+              </p>
+              <ul>
+                <li class="bullet">
+                  • Homeowners utilize a mix of friends, family, hardware store
+                  employees, online research and how-to videos to research their
+                  home improvement projects.
+                </li>
+                <li class="bullet">
+                  • Homeowners may receive inaccurate or conflicting advice from
+                  both in-person and online sources.
+                </li>
+                <li class="bullet">
+                  • Homeowners have a desire to do projects themselves in order
+                  to save money.
+                </li>
+                <li class="bullet">
+                  • Homeowners spend hours researching their projects before
+                  attempting them, often needing to return to the research phase
+                  when hitting a roadblock.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <img id="affinity" src="assets/images/affinity.png" />
+
+        <div class="container">
+          <div class="row">
+            <div class="col l12">
+              <p>
+                In order to understand my users better, I created two distinct
+                user personas from the four interviews I did. These personas had
+                different motivations and frustrations. One was more excited to
+                attempt DIY projects on her own. The other was more likely to
+                hire a professional. I was up to the challenge of creating an
+                app that would serve the needs of both types of homeowners.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row persona-wrapper">
+          <div class="col l6 m6 s12">
+            <img
+              class="persona-pics materialboxed"
+              style="width: 100%"
+              src="assets/images/persona1.png"
+            />
+          </div>
+          <div class="col l6 m6 s12">
+            <img
+              class="persona-pics materialboxed"
+              style="width: 100%"
+              src="assets/images/persona2.png"
+            />
+          </div>
+        </div>
+        <div class="container">
+          <h3 class="center-align">Creating Solutions</h3>
+          <div class="row">
+            <div class="col l12">
+              <p class="text-block">
+                Now that I had a full understanding of what homeowners needed
+                from this app, I created a sitemap. I did a card sort on the
+                sitemap and made adjustments based on those results. I then
+                created some low fidelity user flows, first drawing them out on
+                paper, and later creating low fidelity wireframes in Figma.
+                <br /><br />
+                I designed three different wireframe user flows. Users can log
+                into the app where they will be able to access their favorited
+                experts, and other saved data specific to their account. Users
+                can browse experts in their area and search by what specialty
+                they need help with. They are then able to scan through search
+                results, and favorite the expert they wish to work with. There
+                are also three different payment plans which can be chosen based
+                on the user's specific needs.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h3 class="center-align">Low-Fidelity Wireframes</h3>
+        <p class="little-sub center-align">Login</p>
+        <img
+          id="wire-pics1"
+          class="materialboxed"
+          src="assets/images/wireframes1.png"
+        />
+        <p class="little-sub center-align">Browse Experts</p>
+        <img
+          id="wire-pics2"
+          class="materialboxed"
+          src="assets/images/wireframes2.png"
+        />
+        <p class="little-sub center-align">Collect Payment</p>
+        <img
+          id="wire-pics3"
+          class="materialboxed"
+          src="assets/images/wireframes3.png"
+        />
+
+        <div class="container">
+          <h3 class="center-align">Validating the Design</h3>
+          <div class="row">
+            <div class="col l12">
+              <p class="text-block">
+                Through moderated in-person usability testing, I was able to
+                assess learnability and errors for new users as I tested to see
+                if they could navigate through the app and complete basic
+                functions. I tested six subjects of different genders, ranging
+                in age from 18-24 to 40-49.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <img class="participants-pic" src="assets/images/participants.png" />
+
+        <div class="container">
+          <div class="row">
+            <div class="col l12">
+              <p>
+                The results of my testing yielded several observations and user
+                errors. Taking all this data into account, I revised my
+                wireframes to enable a more intuitive user experience. I soon
+                had a new set of high fidelity wireframes with much improved
+                user flows.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <h3 class="center-align">Creating a Design System</h3>
+          <div class="row">
+            <div class="col l12">
+              <p>
+                I then created a style guide for the app in order to determine a
+                color palette, typography, and the style of images to be used.
+                Once I had these design features down, I created a design system
+                with reusable components that I would be able to easily use in
+                my app design. This ensured consistency throughout the
+                application on both desktop and mobile views, as well as grids
+                and common breakpoints in order to build a responsive website
+                application.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="outer-box z-depth-1">
+          <img id="D-System" src="assets/images/D_System.png" />
+        </div>
+
+        <div class="container">
+          <h3 class="center-align">Mockups</h3>
+          <div class="row">
+            <div class="col l12">
+              <p>
+                After completing the high fidelity wireframes, I then iterated
+                over the designs implementing Gestalt principles. I participated
+                in a design collaboration and was able to apply many of the
+                suggestions made through this process. Finally I was able to
+                design mockups for each selected user flow as well as clickable
+                prototypes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <p class="center-align little-sub">Login</p>
+        <img id="mock-pics1" src="assets/images/mockup1.png" />
+        <p class="center-align little-sub">Browse Experts</p>
+        <img id="mock-pics2" src="assets/images/mockup2.png" />
+        <p class="center-align little-sub">Collect Payment</p>
+        <img id="mock-pics3" src="assets/images/mockup3.png" />
+
+        <div class="container img-container">
+          <h3 class="center-align">Clickable Prototypes</h3>
+          <p class="center-align">
+            Click on each user flow to interact with the prototypes:
+          </p>
+          <br /><br />
+          <div class="row">
+            <div class="col l4 m4 s12">
+              <p class="proto-text little-sub">Login</p>
+              <a
+                href="https://www.figma.com/proto/s4L5gW2iga3owteCNF3bOV/REDO-GURU-High-Fidelity?type=design&node-id=2-4524&t=FgOO0Z0EiTml1vaZ-1&scaling=scale-down&page-id=2%3A3258&starting-point-node-id=2%3A4524&mode=design"
+                target="_blank"
+              >
+                <img
+                  class="proto-image"
+                  id="proto-pic1"
+                  src="assets/images/proto1.png"
+                  alt="prototype"
+                />
+              </a>
+            </div>
+            <div class="col l4 m4 s12">
+              <p class="proto-text little-sub">Browse Experts</p>
+              <a
+                href="https://www.figma.com/proto/s4L5gW2iga3owteCNF3bOV/REDO-GURU-High-Fidelity?type=design&node-id=6-6829&t=XLBewOC31y23EqzP-1&scaling=scale-down&page-id=5%3A5847&starting-point-node-id=6%3A6829&mode=design"
+                target="_blank"
+              >
+                <img
+                  class="proto-image"
+                  id="proto-pic2"
+                  src="assets/images/proto2.png"
+                  alt="prototype"
+                />
+              </a>
+            </div>
+            <div class="col l4 m4 s12">
+              <p class="proto-text little-sub">Collect Payment</p>
+              <a
+                href="https://www.figma.com/proto/s4L5gW2iga3owteCNF3bOV/REDO-GURU-High-Fidelity?type=design&node-id=7-10176&t=e8wybGTHYB83ZA42-1&scaling=scale-down&page-id=7%3A8797&starting-point-node-id=7%3A10176&mode=design"
+                target="_blank"
+              >
+                <img
+                  class="proto-image"
+                  id="proto-pic3"
+                  src="assets/images/proto3.png"
+                  alt="prototype"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <h3 class="center-align">Conclusion</h3>
+          <div class="row">
+            <div class="col l12">
+              <p>
+                Gathering user data and conducting user testing provided me
+                ample insights into this project. I was able to use that data to
+                plan user flows that really benefit homeowners using the app.
+                <br /><br />
+                I think there is room for improvement on the UI of the app. I
+                plan to implement more consistent spacing using an 8pt grid, and
+                redesign the home page on the mobile view. I would also like to
+                design a set of unique icons specific to this app. In the
+                future, I will create mood boards and select one to go with in
+                order to have a more clear visual design direction sooner in the
+                project.
+                <br /><br />
+                My user persona, Kayla, can now easily join Redo Guru at the
+                Plus Plan level and receive 3 video or text chat sessions for
+                $30.00 per month. As she plans to build her 300 square foot
+                deck, Kayla weighs the costs of hiring a professional versus
+                having Redo Guru guide her through her project. Kayla finds that
+                hiring a professional would cost her $9,000.00, but doing it
+                herself would only cost $3,030.00 - the cost of materials, plus
+                a months subscription to Redo Guru. Kayla will save $5,970.00 on
+                her project! She will also have the satisfaction of having
+                completed it herself, without spending hours of her time
+                researching how to do it because she has a Redo Guru she can
+                chat with to give her expert advice.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="contact-section">
-        <div class="container">
-            <!--Contact-->
-             <div class="row">
-                <div class="col s12 m12 l12">
-                    <div id="contact2" class="section scrollspy">
-                        <h2 id="contact-title">Contact</h2>
-                        <img id="logo-jf" src="assets/images/jf-logo.png">
-                        <div class="center-align">
-                            <a id="email-link" href="mailto:jennifer@fayecreative.com" target="_top">jennifer@fayecreative.com</a>
-                            <br>
-                            <div id="contact-icons">
-                                <a href="tel:7632586005" target="_blank"><img src="assets/images/phone.png" id="phone"></a> 
-                                <a href="https://github.com/jennifer0101" target="_blank"><img src="assets/images/github.png" id="github"></a>
-                                <a href="https://www.linkedin.com/in/jennifer-faye" target="_blank"><img src="assets/images/LI-In-Bug.png" id="linkedin"></a>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <!--Contact-->
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <div id="contact2" class="section scrollspy">
+              <h2 id="contact-title">Contact</h2>
+              <img id="logo-jf" src="assets/images/jf-logo.png" />
+              <div class="center-align">
+                <a
+                  id="email-link"
+                  href="mailto:jennifer@fayecreative.com"
+                  target="_top"
+                  >jennifer@fayecreative.com</a
+                >
+                <br />
+                <div id="contact-icons">
+                  <a href="tel:7632586005" target="_blank"
+                    ><img src="assets/images/phone.png" id="phone"
+                  /></a>
+                  <a href="https://github.com/jennifer0101" target="_blank"
+                    ><img src="assets/images/github.png" id="github"
+                  /></a>
+                  <a
+                    href="https://www.linkedin.com/in/jennifer-faye"
+                    target="_blank"
+                    ><img src="assets/images/LI-In-Bug.png" id="linkedin"
+                  /></a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    
+
     <footer>
-        <div id="copyright">
-            &copy; 2024 Jennifer Faye
-        </div>
+      <div id="copyright">&copy; 2024 Jennifer Faye</div>
     </footer>
-    
-<!-- Link to JQuery-->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-       
-<!-- Link to JavaScript File-->
-<script src="assets/javascript/logic.js"></script>
-    
-</body> 
+
+    <!-- Link to JQuery-->
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Link to JavaScript File-->
+    <script src="assets/javascript/logic.js"></script>
+  </body>
 </html>

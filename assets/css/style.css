@@ -1,6 +1,6 @@
 /* GLOBAL SETTINGS */
 :root{
-  --text: clamp(16px, 1.1vw + 12px, 18px);
+  --text: clamp(17px, 0.6vw + 14px, 18px);
   --h1: clamp(32px, 4.5vw + 8px, 72px);
   --h2: clamp(26px, 3.3vw + 10px, 56px);
   --h3: clamp(22px, 2.6vw + 10px, 44px);
@@ -124,7 +124,7 @@ nav ul li:hover {
 }
 
 #home-section .row{
-  min-height: clamp(500px, 75vh, 900px);
+  min-height: clamp(500px, 72vh, 900px);
   display: flex;
   align-items: center;
   margin-bottom: 0;
