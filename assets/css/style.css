@@ -290,6 +290,15 @@ blockquote {
 }
 
 /* Carousel Testimonial */
+.testiminial-shell {
+  padding: 30px 80px 30px 80px;
+  margin: 20px 0 20px 0;
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
 .carousel{
   width: min(900px, 92%);
   margin: 0 auto;
@@ -619,16 +628,7 @@ p.little-sub {
   color: #121212;
 }
 
-.inner-box {
-  padding: 30px 80px 30px 80px;
-  margin: 20px 0 20px 0;
-  background-color: #ffffff;
-  border: 1px solid #e6e6e6;
-  border-top-left-radius: 100px;
-  border-bottom-right-radius: 100px;
-}
-
-.outer-box {
+.comparison-shell, .quote-shell {
   padding: 30px 80px 30px 80px;
   margin: 20px;
   background-color: #ffffff;
@@ -636,6 +636,8 @@ p.little-sub {
   border-top-left-radius: 100px;
   border-bottom-right-radius: 100px;
 }
+
+
 
 /* CRAIGSLIST REDESIGN PAGE */
 
