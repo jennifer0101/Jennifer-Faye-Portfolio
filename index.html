@@ -1,538 +1,707 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Jennifer Faye Portfolio</title>
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <!--Import Adobe Font-->
-    <link rel="stylesheet" href="https://use.typekit.net/lqh6vop.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lqh6vop.css" />
     <!-- Link to CSS reset sheet-->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
     <!-- Link to CSS style sheet-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <!-- Link to Materialize-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <!-- responsive screen size viewport code-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- ****** faviconit.com favicons ****** -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
     <!-- <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico"> -->
-    <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
-    <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
-    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
-    <link rel="apple-touch-icon" href="/favicon-57.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
-    <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="msapplication-TileImage" content="/favicon-144.png">
-    <meta name="msapplication-config" content="/browserconfig.xml">
-</head>
+    <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png" />
+    <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="apple-touch-icon" href="/favicon-57.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/favicon-144.png" />
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+  </head>
 
-<body>
-
+  <body>
     <!-- Sidenav slide out on mobile -->
     <div id="pic-section">
-        <div id="sidebar-wrapper" class="hide-on-large-only">        
-            <ul id="slide-out" class="sidenav">
-                <li>
-                    <div class="user-view">
-                        <div class="background">
-                            <img src="assets/images/hero-side-nav.jpg">
-                        </div>
-                        <a href="#user"><img class="circle" src="assets/images/Jen2.jpg"></a>
-                        <a href="#name"><span class="white-text name">Jennifer Faye</span></a>
-                        <a href="#email"><span class="white-text email">jennifer@fayecreative.com</span></a>
-                    </div>
-                </li>
-                <li><a class="sidenav-close waves-effect" href="#home">Home</a></li>
-                <li><a class="sidenav-close waves-effect" href="#projects">Projects</a></li>
-                <li><a class="sidenav-close waves-effect" href="#skills">Skills</a></li>
-                <li><a class="sidenav-close waves-effect" href="#about">About</a></li>
-                <li><a class="sidenav-close waves-effect" href="#contact">Contact</a></li>
-                <li>
-                    <div class="divider"></div>
-                </li>
-                <li><a class="sidenav-close waves-effect"
-                        href="https://docs.google.com/document/d/1GXh6dh4BfpZ-uRe0ec8UNnjKlsZq2SSgsTkg1aXT_FE/edit?usp=sharing"
-                        target="_blank" rel="noopener noreferrer"> Resume
-                    </a>
-                </li>
-            </ul>
-        </div>
+      <div id="sidebar-wrapper" class="hide-on-large-only">
+        <ul id="slide-out" class="sidenav">
+          <li>
+            <div class="user-view">
+              <div class="background">
+                <img src="assets/images/hero-side-nav.jpg" />
+              </div>
+              <a href="#user"
+                ><img class="circle" src="assets/images/Jen2.jpg"
+              /></a>
+              <a href="#name"
+                ><span class="white-text name">Jennifer Faye</span></a
+              >
+              <a href="#email"
+                ><span class="white-text email"
+                  >jennifer@fayecreative.com</span
+                ></a
+              >
+            </div>
+          </li>
+          <li><a class="sidenav-close waves-effect" href="#home">Home</a></li>
+          <li>
+            <a class="sidenav-close waves-effect" href="#projects">Projects</a>
+          </li>
+          <li>
+            <a class="sidenav-close waves-effect" href="#skills">Skills</a>
+          </li>
+          <li><a class="sidenav-close waves-effect" href="#about">About</a></li>
+          <li>
+            <a class="sidenav-close waves-effect" href="#contact">Contact</a>
+          </li>
+          <li>
+            <div class="divider"></div>
+          </li>
+          <li>
+            <a
+              class="sidenav-close waves-effect"
+              href="https://docs.google.com/document/d/1GXh6dh4BfpZ-uRe0ec8UNnjKlsZq2SSgsTkg1aXT_FE/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
+          </li>
+        </ul>
+      </div>
 
-        <!-- sidenav trigger hamburger -->
-        <div class="hide-on-large-only">
-            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        </div>
-   
-        <!--blurb, navbar -->
-        <div id="contents-wrapper">
-            <nav class="transparent">
-                <div class="nav-wrapper z-depth-1">
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="https://docs.google.com/document/d/1GXh6dh4BfpZ-uRe0ec8UNnjKlsZq2SSgsTkg1aXT_FE/edit?usp=sharing"
-                            target="_blank" rel="noopener noreferrer">Resume</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+      <!-- sidenav trigger hamburger -->
+      <div class="hide-on-large-only">
+        <a href="#" data-target="slide-out" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+      </div>
+
+      <!--blurb, navbar -->
+      <div id="contents-wrapper">
+        <nav class="transparent">
+          <div class="nav-wrapper z-depth-1">
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li>
+                <a
+                  href="https://docs.google.com/document/d/1GXh6dh4BfpZ-uRe0ec8UNnjKlsZq2SSgsTkg1aXT_FE/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Resume</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
 
     <!-- HOME SECTION -->
     <div id="home" class="section scrollspy">
-        <div id="home-section">
-            <div class="row">
-                <div class="container">
-                    <div class="home-contents">
-                        <h1 class="overlay1">Hello, I'm Jennifer Faye</h1>
-                            <p class="overlay2">
-                                Web Production & Design Specialist
-                            </p>
-                            <h6 class="blurb1">
-                                I work at the intersection of design and implementation, translating layouts into clean, responsive web experiences with an eye for detail.
-                        </h6>
-                    </div>
-                </div>
+      <div id="home-section">
+        <div class="row">
+          <div class="container">
+            <div class="home-contents">
+              <h1 class="overlay1">Hello, I'm Jennifer Faye</h1>
+              <p class="overlay2">Web Production & Design Specialist</p>
+              <h6 class="blurb1">
+                I work at the intersection of design and implementation,
+                translating layouts into clean, responsive web experiences with
+                an eye for detail.
+              </h6>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- PROJECT SECTION -->
     <div id="project-section">
-        <div class="container">
+      <div class="container">
         <!--Projects-->
-            <div id="projects" class="section scrollspy">
-                <h2>Projects</h2>
+        <div id="projects" class="section scrollspy">
+          <h2>Projects</h2>
 
-                <h4 class="indent">Case Studies</h4>
+          <h4>Case Studies</h4>
 
-                <div class="row card-row">
-                    <div class="col s12 m6 l6 card-col">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="cover-pics" id="craig-pic" src="assets/images/Craigslist.jpg">
-                                <span class="card-title">Craigslist Redesign</span>
-                            </div>
-                            <div class="card-content">
-                                <p class="card-skills">UX/UI Design • Figma</p>
-                                <br>
-                                <p class="card-descrip">A conceptual UI overhaul of a high-traffic legacy platform.</p>
-                            </div>
-                             <div class="card-action">
-                                <a href="craig.html" target="_blank">View Case Study</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m6 l6 card-col">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="cover-pics" id="guru-pic" src="assets/images/redo-feature.jpg">
-                                <span class="card-title">Redo Guru</span>
-                            </div>
-                            <div class="card-content">
-                                <p class="card-skills">UX/UI Design • Figma</p>
-                                <br>
-                                <p class="card-descrip">A high-fidelity mobile application designed to bridge the gap between DIY homeowners and experts through real-time chat and project tracking.</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="redo.html" target="_blank">View Case Study</a>
-                            </div>
-                        </div>
-                    </div>
+          <div class="row card-row">
+            <div class="col s12 m6 l6 card-col">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    class="cover-pics"
+                    id="craig-pic"
+                    src="assets/images/Craigslist.jpg"
+                  />
+                  <span class="card-title">Craigslist Redesign</span>
                 </div>
-  
-                <h4 class="indent">Web Production & CMS</h4>
-
-                <div class="row card-row">
-                    <div class="col s12 m6 l6 card-col">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <img class="cover-pics" src="assets/images/henci-g.png">
-                                        <span class="card-title">HenciGoer.com</span>
-                                    </div>
-                                    <div class="card-content">
-                                        <p class="card-skills">CMS Implementation • WordPress</p>
-                                        <br>
-                                        <p>Full-scale WordPress implementation and ongoing CMS management for a content-heavy author platform, prioritizing structured publishing workflows and design consistency.</p>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="https://hencigoer.com/" target="_blank"
-                                        >View App</a>
-                                    </div>
-                                </div>
-                    </div>
-
-                    <div class="col s12 m6 l6 card-col">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="cover-pics" src="assets/images/vbac.jpg">
-                                <span class="card-title">VBAC.com</span>
-                            </div>
-                            <div class="card-content">
-                                <p class="card-skills">Web Design • WordPress</p>
-                                <br>
-                                <p>Transformed an unstructured blog into a resource-heavy educational platform using WordPress and Divi, architecting the site structure from existing materials and prioritizing content hierarchy and accessibility.</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="https://vbac.com/" target="_blank"
-                                >View App</a>
-                            </div>
-                        </div>
-                    </div>
-
+                <div class="card-content">
+                  <p class="card-skills">UX/UI Design • Figma</p>
+                  <br />
+                  <p class="card-descrip">
+                    A conceptual UI overhaul of a high-traffic legacy platform.
+                  </p>
                 </div>
-
-                <div class="row card-row">
-
-                            <div class="col s12 m12 l12 card-col">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="cover-pics" src="assets/images/sharon-s.png">
-                                <span class="card-title">Sharon Storton: Inner Studio Inc.</span>
-                            </div>
-                            <div class="card-content">
-                                <p class="card-skills">Technical Production • Pagecloud</p>
-                                <br>
-                                <p>Executed a high-fidelity transition from Figma designs to a custom Pagecloud environment, navigating platform-specific constraints to deliver a polished, responsive experience.</p>
-                            </div>
-                                <div class="card-action">
-                                  
-                                        <a href="https://www.innerstudio.ca/" target="_blank"
-                                        >View App</a>
-                               
-                                </div>
-                            </div>
-                            </div>
-
-                            <!-- <div class="col s12 m6 l6 card-col">
-
-
-                        </div> -->
-               
-                        <h4 class="indent">Interactive & Front-End</h4>
-
-                        <div class="row card-row">
-
-                            <div class="col s12 m6 l6 card-col">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="cover-pics" src="assets/images/Owen.png">
-                                <span class="card-title">Owen Zimmerman: Video Editor</span>
-                            </div>
-                            <div class="card-content">
-                                <p class="card-skills">Interactive UI • GSAP & JavaScript</p>
-                                <br>
-                                <p>A custom-coded portfolio utilizing the GSAP library for cinematic motion and title-sequence aesthetics. Demonstrates advanced CSS/JS animation techniques.</p>
-                            </div>
-                                <div class="card-action">
-                                    <a href="https://jennifer0101.github.io/Animated-Portfolio/" target="_blank">View App</a>
-                                        <a href="https://github.com/jennifer0101/Animated-Portfolio"
-                                        target="_blank">GitHub Code</a>
-                            </div>
-                        </div>
-                            </div>
-                            <div class="col s12 m6 l6 card-col">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <img class="cover-pics" src="assets/images/FunCocktails.png">
-                                        <span class="card-title">Fun With Cocktails</span>
-                                    </div>
-                                    <div class="card-content">
-                                        <p class="card-skills">Front-End Development • API Integration</p>
-                                        <br>
-                                        <p>A dynamic web application that pulls from a live database to generate random recipes. Showcases proficiency in API logic, JavaScript, and creative CSS animation. <br>Note: This is a desktop-focused technical demonstration of API logic and complex CSS animations.</p>
-                                    </div>
-                                    <div class="card-action">
-                                        <a href="https://jennifer0101.github.io/Fun-With-Cocktails/" target="_blank"
-                                        >View App</a>
-                                        <a href="https://github.com/jennifer0101/Fun-With-Cocktails"
-                                        target="_blank">GitHub Code</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
+                <div class="card-action">
+                  <a href="craig.html" target="_blank">View Case Study</a>
+                </div>
+              </div>
             </div>
-        </div>
-    </div>     
+            <div class="col s12 m6 l6 card-col">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    class="cover-pics"
+                    id="guru-pic"
+                    src="assets/images/redo-feature.jpg"
+                  />
+                  <span class="card-title">Redo Guru</span>
+                </div>
+                <div class="card-content">
+                  <p class="card-skills">UX/UI Design • Figma</p>
+                  <br />
+                  <p class="card-descrip">
+                    A high-fidelity mobile application designed to bridge the
+                    gap between DIY homeowners and experts through real-time
+                    chat and project tracking.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="redo.html" target="_blank">View Case Study</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    <!-- SKILLS SECTION -->
-    <div id="skills-section">
+          <h4>Web Production & CMS</h4>
+
+          <div class="row card-row">
+            <div class="col s12 m6 l6 card-col">
+              <div class="card">
+                <div class="card-image">
+                  <img class="cover-pics" src="assets/images/henci-g.png" />
+                  <span class="card-title">HenciGoer.com</span>
+                </div>
+                <div class="card-content">
+                  <p class="card-skills">CMS Implementation • WordPress</p>
+                  <br />
+                  <p>
+                    Full-scale WordPress implementation and ongoing CMS
+                    management for a content-heavy author platform, prioritizing
+                    structured publishing workflows and design consistency.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://hencigoer.com/" target="_blank">View App</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l6 card-col">
+              <div class="card">
+                <div class="card-image">
+                  <img class="cover-pics" src="assets/images/vbac.jpg" />
+                  <span class="card-title">VBAC.com</span>
+                </div>
+                <div class="card-content">
+                  <p class="card-skills">Web Design • WordPress</p>
+                  <br />
+                  <p>
+                    Transformed an unstructured blog into a resource-heavy
+                    educational platform using WordPress and Divi, architecting
+                    the site structure from existing materials and prioritizing
+                    content hierarchy and accessibility.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://vbac.com/" target="_blank">View App</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row card-row">
+            <div class="col s12 m12 l12 card-col">
+              <div class="card">
+                <div class="card-image">
+                  <img class="cover-pics" src="assets/images/sharon-s.png" />
+                  <span class="card-title"
+                    >Sharon Storton: Inner Studio Inc.</span
+                  >
+                </div>
+                <div class="card-content">
+                  <p class="card-skills">Technical Production • Pagecloud</p>
+                  <br />
+                  <p>
+                    Executed a high-fidelity transition from Figma designs to a
+                    custom Pagecloud environment, navigating platform-specific
+                    constraints to deliver a polished, responsive experience.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://www.innerstudio.ca/" target="_blank"
+                    >View App</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <h4>Interactive & Front-End</h4>
+
+            <div class="row card-row">
+              <div class="col s12 m6 l6 card-col">
+                <div class="card">
+                  <div class="card-image">
+                    <img class="cover-pics" src="assets/images/Owen.png" />
+                    <span class="card-title">Owen Zimmerman: Video Editor</span>
+                  </div>
+                  <div class="card-content">
+                    <p class="card-skills">
+                      Interactive UI • GSAP & JavaScript
+                    </p>
+                    <br />
+                    <p>
+                      A custom-coded portfolio utilizing the GSAP library for
+                      cinematic motion and title-sequence aesthetics.
+                      Demonstrates advanced CSS/JS animation techniques.
+                    </p>
+                  </div>
+                  <div class="card-action">
+                    <a
+                      href="https://jennifer0101.github.io/Animated-Portfolio/"
+                      target="_blank"
+                      >View App</a
+                    >
+                    <a
+                      href="https://github.com/jennifer0101/Animated-Portfolio"
+                      target="_blank"
+                      >GitHub Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6 l6 card-col">
+                <div class="card">
+                  <div class="card-image">
+                    <img
+                      class="cover-pics"
+                      src="assets/images/FunCocktails.png"
+                    />
+                    <span class="card-title">Fun With Cocktails</span>
+                  </div>
+                  <div class="card-content">
+                    <p class="card-skills">
+                      Front-End Development • API Integration
+                    </p>
+                    <br />
+                    <p>
+                      A dynamic web application that pulls from a live database
+                      to generate random recipes. Showcases proficiency in API
+                      logic, JavaScript, and creative CSS animation. <br />Note:
+                      This is a desktop-focused technical demonstration of API
+                      logic and complex CSS animations.
+                    </p>
+                  </div>
+                  <div class="card-action">
+                    <a
+                      href="https://jennifer0101.github.io/Fun-With-Cocktails/"
+                      target="_blank"
+                      >View App</a
+                    >
+                    <a
+                      href="https://github.com/jennifer0101/Fun-With-Cocktails"
+                      target="_blank"
+                      >GitHub Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SKILLS SECTION -->
+      <div id="skills-section">
         <div class="container">
-
-            <!--Skills-->
-            <div id="skills" class="section scrollspy">
-                <h2>Skills</h2>
-                <!-- Design -->
-                 <div class="row">
+          <!--Skills-->
+          <div id="skills" class="section scrollspy">
+            <h2>Skills</h2>
+            <!-- Design -->
+            <div class="row">
+              <div class="col s12 m12 l12">
                 <div class="rectangle z-depth-1">
-                    <div class="logo-title">
-                        <h5 class="center-align">Design Tools</h5>
-                        <hr>
-                    </div>
+                  <div class="logo-title">
+                    <h5 class="center-align">Design Tools</h5>
+                    <hr />
+                  </div>
 
-                    <div class="wrap-one">
-                        <img src="assets/images/logo-figma.png" class="each-logo" alt="Figma logo">
-                        <p class="skill-descrip">Figma</p>
-                    </div>
+                  <div class="wrap-one">
+                    <img
+                      src="assets/images/logo-figma.png"
+                      class="each-logo"
+                      alt="Figma logo"
+                    />
+                    <p class="skill-descrip">Figma</p>
+                  </div>
 
-                    <div class="wrap-one">
-                        <img src="assets/images/logo-photoshop.png" class="each-logo" alt="Photoshop logo">
-                        <p class="skill-descrip">Photoshop</p>
-                    </div>
+                  <div class="wrap-one">
+                    <img
+                      src="assets/images/logo-photoshop.png"
+                      class="each-logo"
+                      alt="Photoshop logo"
+                    />
+                    <p class="skill-descrip">Photoshop</p>
+                  </div>
 
-                    <div class="wrap-one">
-                        <img src="assets/images/logo-finalcut.png" class="each-logo" alt="Final Cut Pro logo">
-                        <p class="skill-descrip">Final Cut Pro</p>
-                    </div>
+                  <div class="wrap-one">
+                    <img
+                      src="assets/images/logo-finalcut.png"
+                      class="each-logo"
+                      alt="Final Cut Pro logo"
+                    />
+                    <p class="skill-descrip">Final Cut Pro</p>
+                  </div>
                 </div>
-                </div>
-
-                <!-- Front End Development -->
-                   <div class="row">
-                <div class="rectangle z-depth-1">
-                    <div class="logo-title">
-                        <h5 class="center-align">Implementation &amp; Development</h5>
-                        <hr>
-                    </div>
-
-                    <div class="wrap-one">
-                        <img src="assets/images/logo-javascript.png" class="each-logo" alt="JavaScript logo">
-                        <p class="skill-descrip">JavaScript</p>
-                    </div>
-
-                    <div class="wrap-one">
-                        <img src="assets/images/logo-jquery.png" class="each-logo" alt="jQuery logo">
-                        <p class="skill-descrip">jQuery</p>
-                    </div>
-
-                    <div class="wrap-one">
-                        <img src="assets/images/logo-html.png" class="each-logo" alt="HTML5 logo">
-                        <p class="skill-descrip">HTML5</p>
-                    </div>
-
-                    <div class="wrap-one">
-                        <img src="assets/images/logo-css.png" class="each-logo" alt="CSS3 logo">
-                        <p class="skill-descrip">CSS3</p>
-                    </div>
-
-                    <div class="wrap-one">
-                        <img src="assets/images/logo-materialize.png" class="each-logo" alt="Materialize logo">
-                        <p class="skill-descrip">Materialize</p>
-                    </div>
-
-                    <div class="wrap-one">
-                        <img src="assets/images/logo-bootstrap.png" class="each-logo" alt="Bootstrap logo">
-                        <p class="skill-descrip">Bootstrap</p>
-                    </div>
-                </div>
-                </div>
-
-                <!-- Content Management Systems -->
-                    <div class="row">
-                <div class="rectangle z-depth-1">
-                    <div class="logo-title">
-                        <h5 class="center-align">Content Management Systems</h5>
-                        <hr>
-                    </div>
-
-                    <div class="wrap-one">
-                        <img src="assets/images/logo-wordpress.png" class="each-logo" alt="WordPress logo">
-                        <p class="skill-descrip">WordPress</p>
-                    </div>
-
-                    <div class="wrap-one">
-                        <img src="assets/images/logo-divi.png" class="each-logo" alt="Divi Builder logo">
-                        <p class="skill-descrip">Divi Builder</p>
-                    </div>
-
-                    <div class="wrap-one">
-                        <img src="assets/images/logo-Squarespace.png" class="each-logo" alt="Squarespace logo">
-                        <p class="skill-descrip">Squarespace</p>
-                    </div>
-
-                    <div class="wrap-one">
-                        <img src="assets/images/logo-pagecloud.png" class="each-logo" alt="Pagecloud logo">
-                        <p class="skill-descrip">Pagecloud</p>
-                    </div>
-                </div>
-                </div>
-
- 
-        
-            
+              </div>
             </div>
+
+            <!-- Front End Development -->
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <div class="rectangle z-depth-1">
+                  <div class="logo-title">
+                    <h5 class="center-align">
+                      Implementation &amp; Development
+                    </h5>
+                    <hr />
+                  </div>
+
+                  <div class="wrap-one">
+                    <img
+                      src="assets/images/logo-javascript.png"
+                      class="each-logo"
+                      alt="JavaScript logo"
+                    />
+                    <p class="skill-descrip">JavaScript</p>
+                  </div>
+
+                  <div class="wrap-one">
+                    <img
+                      src="assets/images/logo-jquery.png"
+                      class="each-logo"
+                      alt="jQuery logo"
+                    />
+                    <p class="skill-descrip">jQuery</p>
+                  </div>
+
+                  <div class="wrap-one">
+                    <img
+                      src="assets/images/logo-html.png"
+                      class="each-logo"
+                      alt="HTML5 logo"
+                    />
+                    <p class="skill-descrip">HTML5</p>
+                  </div>
+
+                  <div class="wrap-one">
+                    <img
+                      src="assets/images/logo-css.png"
+                      class="each-logo"
+                      alt="CSS3 logo"
+                    />
+                    <p class="skill-descrip">CSS3</p>
+                  </div>
+
+                  <div class="wrap-one">
+                    <img
+                      src="assets/images/logo-materialize.png"
+                      class="each-logo"
+                      alt="Materialize logo"
+                    />
+                    <p class="skill-descrip">Materialize</p>
+                  </div>
+
+                  <div class="wrap-one">
+                    <img
+                      src="assets/images/logo-bootstrap.png"
+                      class="each-logo"
+                      alt="Bootstrap logo"
+                    />
+                    <p class="skill-descrip">Bootstrap</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Content Management Systems -->
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <div class="rectangle z-depth-1">
+                  <div class="logo-title">
+                    <h5 class="center-align">Content Management Systems</h5>
+                    <hr />
+                  </div>
+
+                  <div class="wrap-one">
+                    <img
+                      src="assets/images/logo-wordpress.png"
+                      class="each-logo"
+                      alt="WordPress logo"
+                    />
+                    <p class="skill-descrip">WordPress</p>
+                  </div>
+
+                  <div class="wrap-one">
+                    <img
+                      src="assets/images/logo-divi.png"
+                      class="each-logo"
+                      alt="Divi Builder logo"
+                    />
+                    <p class="skill-descrip">Divi Builder</p>
+                  </div>
+
+                  <div class="wrap-one">
+                    <img
+                      src="assets/images/logo-Squarespace.png"
+                      class="each-logo"
+                      alt="Squarespace logo"
+                    />
+                    <p class="skill-descrip">Squarespace</p>
+                  </div>
+
+                  <div class="wrap-one">
+                    <img
+                      src="assets/images/logo-pagecloud.png"
+                      class="each-logo"
+                      alt="Pagecloud logo"
+                    />
+                    <p class="skill-descrip">Pagecloud</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- ABOUT SECTION -->
     <div id="about-section">
-        <div class="container">
+      <div class="container">
         <!--About-->
-            <div class="row">
-                <div class="col s12 m12 l12">
-                    <div id="about" class="section scrollspy">
-                        <h2>About</h2>
-                        <div>
-                            <img id="jen1" class="circle" src="assets/images/Jen.jpg">
-                        </div>
-                        <p class="text-block-a">
-                            I’ve found my niche on the production side of the web, implementing layouts, refining responsive behavior, and keeping websites clean and consistent over time.
-                            <br><br>
-                            I’m drawn to the final mile of a project. Spacing consistency, typography, and the small structural details that make a page feel complete genuinely excite me. I enjoy refining those details until everything feels solid and aligned.
-                            <br><br>
-                            My background in front-end development and UX/UI design helps me move comfortably between visual direction and technical implementation. I translate ideas into clear, reliable pages and maintain that clarity as content grows and changes.
-                            <br><br>
-                            Outside of web work, I spend time walking by the river, taking photographs, creating art, and writing.
-                        <br><br>
-                        </p>
-                    </div>
-                </div>
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <div id="about" class="section scrollspy">
+              <h2>About</h2>
+              <div>
+                <img id="jen1" class="circle" src="assets/images/Jen.jpg" />
+              </div>
+              <p class="text-block-a">
+                I’ve found my niche on the production side of the web,
+                implementing layouts, refining responsive behavior, and keeping
+                websites clean and consistent over time.
+                <br /><br />
+                I’m drawn to the final mile of a project. Spacing consistency,
+                typography, and the small structural details that make a page
+                feel complete genuinely excite me. I enjoy refining those
+                details until everything feels solid and aligned.
+                <br /><br />
+                My background in front-end development and UX/UI design helps me
+                move comfortably between visual direction and technical
+                implementation. I translate ideas into clear, reliable pages and
+                maintain that clarity as content grows and changes.
+                <br /><br />
+                Outside of web work, I spend time walking by the river, taking
+                photographs, creating art, and writing.
+                <br /><br />
+              </p>
             </div>
-        </div>
-    </div>
-    <div class="row">
-        <h4 class="center-align">What other's have to say...</h4>
-    </div>
-    <div class="container">
-        <div class="carousel testiminial-shell z-depth-1">
-            <button class="prev custom-button" onclick="changeTestimonial(-1); return false;" style="background-color: #ddd; color: #333;">&#10094;</button>
-            <div class="testimonial">
-                <blockquote>
-                    "Jennifer has worked for me for a couple of years now both as my social media manager 
-                    for my Facebook and Instagram pages and as my website designer. I have found her to be diligent, 
-                    reliable, knowledgeable, resourceful, creative, and a good listener. She has been an invaluable member of my team."
-                    <br><br>
-                    <b>Henci Goer</b>
-                    <br>
-                    <p class="career-id">AUTHOR</p>
-                  
-                </blockquote>
-            </div>
-            <div class="testimonial">
-                <blockquote>
-                    "Jennifer was efficient and effective, definitely a pleasure to work with. 
-                    I will seek her out again to hire if I have jobs in her focus areas. 
-                    She is smart, talented, friendly, and responsive. She finished this build quickly 
-                    and did exactly what we asked. Great work!"
-                    <br><br>
-                    <b>Melanie Durfee</b>
-                </blockquote>
-            </div>
-            <div class="testimonial">
-                <blockquote>
-                    "I hired Jennifer to do a variety of jobs/tasks right after Covid hit. 
-                    I really needed someone who would meet our weekly goals and work with me on 
-                    both the creative and technical side of all our marketing efforts. 
-                    She helped me update and rebuild our mailers, email newsletter, 
-                    social and other aspects of our marketing plan. After helping us on 
-                    those she helped my other company build our new Wordpress website. 
-                    I really appreciated her ability to communicate, she was always on time, 
-                    had a great calm energy, was great to work with and was a big team player!"
-                    <br><br>
-                    <b>Ambrosia Severson</b>
-                    <br>
-                    <p class="career-id">REALTOR</p>
-             
-                </blockquote>
-            </div>
-            <div class="testimonial">
-                <blockquote>
-                    "Ms. Faye has worked on our website over the course of several years, 
-                    as the needs of the program grew and changed. The site has been complex 
-                    and yet we have never once been disappointed in the updates and outcomes. 
-                    Ms. Faye is very detail oriented and gifted in her creativity, yet she never 
-                    loses sight of the overall goals of what we are working to accomplish. I would 
-                    not hesitate to recommend Ms. Faye for web development and for her design skills. 
-                    I am very grateful for her talents."
-                    <br><br>
-                    <b>Sharon Storton</b>
-                    <br>
-                    <p class="career-id">REGISTERED PSYCHOLOGIST, CO-FOUNDER SOLACE FOR MOTHERS
-                    </p>
-    
-                </blockquote>
-            </div>
-            <div class="testimonial">
-                <blockquote>
-                    "I hired Jennifer Faye to maintain the website for my small business. 
-                    She worked in a highly professional manner, with close attention to detail, 
-                    documentation and organizing protocols for work flow & team communication. 
-                    Ms Faye brings innate skills to the complexity and logic of programming. 
-                    Ms Faye worked to budget and to project timeframes. She works with integrity, 
-                    independence and self-initiative as a team member. 
-                    I highly recommend Ms Faye for web development & design."
-                    <br><br>
-                    <b>Catherine Burns</b>
-                        <br>
-                   <p class="career-id">WELLNESS BUSINESS OWNER
-                   </p>
-           
-                  </blockquote>
-            </div>
-            <button class="next custom-button" onclick="changeTestimonial(1); return false;" style="background-color: #ddd; color: #333;">&#10095;</button>
           </div>
         </div>
-
-        
-
+      </div>
+    </div>
+    <div class="row">
+      <h4 class="center-align">What other's have to say...</h4>
+    </div>
+    <div class="container">
+      <div class="carousel testiminial-shell z-depth-1">
+        <button
+          class="prev custom-button"
+          onclick="
+            changeTestimonial(-1);
+            return false;
+          "
+          style="background-color: #ddd; color: #333"
+        >
+          &#10094;
+        </button>
+        <div class="testimonial">
+          <blockquote>
+            "Jennifer has worked for me for a couple of years now both as my
+            social media manager for my Facebook and Instagram pages and as my
+            website designer. I have found her to be diligent, reliable,
+            knowledgeable, resourceful, creative, and a good listener. She has
+            been an invaluable member of my team."
+            <br /><br />
+            <b>Henci Goer</b>
+            <br />
+            <p class="career-id">AUTHOR</p>
+          </blockquote>
+        </div>
+        <div class="testimonial">
+          <blockquote>
+            "Jennifer was efficient and effective, definitely a pleasure to work
+            with. I will seek her out again to hire if I have jobs in her focus
+            areas. She is smart, talented, friendly, and responsive. She
+            finished this build quickly and did exactly what we asked. Great
+            work!"
+            <br /><br />
+            <b>Melanie Durfee</b>
+          </blockquote>
+        </div>
+        <div class="testimonial">
+          <blockquote>
+            "I hired Jennifer to do a variety of jobs/tasks right after Covid
+            hit. I really needed someone who would meet our weekly goals and
+            work with me on both the creative and technical side of all our
+            marketing efforts. She helped me update and rebuild our mailers,
+            email newsletter, social and other aspects of our marketing plan.
+            After helping us on those she helped my other company build our new
+            Wordpress website. I really appreciated her ability to communicate,
+            she was always on time, had a great calm energy, was great to work
+            with and was a big team player!"
+            <br /><br />
+            <b>Ambrosia Severson</b>
+            <br />
+            <p class="career-id">REALTOR</p>
+          </blockquote>
+        </div>
+        <div class="testimonial">
+          <blockquote>
+            "Ms. Faye has worked on our website over the course of several
+            years, as the needs of the program grew and changed. The site has
+            been complex and yet we have never once been disappointed in the
+            updates and outcomes. Ms. Faye is very detail oriented and gifted in
+            her creativity, yet she never loses sight of the overall goals of
+            what we are working to accomplish. I would not hesitate to recommend
+            Ms. Faye for web development and for her design skills. I am very
+            grateful for her talents."
+            <br /><br />
+            <b>Sharon Storton</b>
+            <br />
+            <p class="career-id">
+              REGISTERED PSYCHOLOGIST, CO-FOUNDER SOLACE FOR MOTHERS
+            </p>
+          </blockquote>
+        </div>
+        <div class="testimonial">
+          <blockquote>
+            "I hired Jennifer Faye to maintain the website for my small
+            business. She worked in a highly professional manner, with close
+            attention to detail, documentation and organizing protocols for work
+            flow & team communication. Ms Faye brings innate skills to the
+            complexity and logic of programming. Ms Faye worked to budget and to
+            project timeframes. She works with integrity, independence and
+            self-initiative as a team member. I highly recommend Ms Faye for web
+            development & design."
+            <br /><br />
+            <b>Catherine Burns</b>
+            <br />
+            <p class="career-id">WELLNESS BUSINESS OWNER</p>
+          </blockquote>
+        </div>
+        <button
+          class="next custom-button"
+          onclick="
+            changeTestimonial(1);
+            return false;
+          "
+          style="background-color: #ddd; color: #333"
+        >
+          &#10095;
+        </button>
+      </div>
+    </div>
 
     <!-- CONTACT SECTION -->
     <div id="contact-section">
-        <div class="container">
-            <!--Contact-->
-            <div class="row">
-                <div class="col s12 m12 l12">
-                    <div id="contact" class="section scrollspy">
-                        <h2 id="contact-title">Contact</h2>
-                        <img id="logo-jf" src="assets/images/jf-logo.png">
-                        <div class="center-align">
-                                <a id="email-link" href="mailto:jennifer@fayecreative.com" target="_top">jennifer@fayecreative.com</a>
-                            <br>
-                            <div id="contact-icons">
-                                <a href="tel:7632586005" target="_blank"><img src="assets/images/phone.png" id="phone"></a> 
-                                <a href="https://github.com/jennifer0101" target="_blank"><img src="assets/images/github.png" id="github"></a>
-                                <a href="https://www.linkedin.com/in/jennifer-faye" target="_blank"><img src="assets/images/LI-In-Bug.png" id="linkedin"></a>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <!--Contact-->
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <div id="contact" class="section scrollspy">
+              <h2 id="contact-title">Contact</h2>
+              <img id="logo-jf" src="assets/images/jf-logo.png" />
+              <div class="center-align">
+                <a
+                  id="email-link"
+                  href="mailto:jennifer@fayecreative.com"
+                  target="_top"
+                  >jennifer@fayecreative.com</a
+                >
+                <br />
+                <div id="contact-icons">
+                  <a href="tel:7632586005" target="_blank"
+                    ><img src="assets/images/phone.png" id="phone"
+                  /></a>
+                  <a href="https://github.com/jennifer0101" target="_blank"
+                    ><img src="assets/images/github.png" id="github"
+                  /></a>
+                  <a
+                    href="https://www.linkedin.com/in/jennifer-faye"
+                    target="_blank"
+                    ><img src="assets/images/LI-In-Bug.png" id="linkedin"
+                  /></a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <footer>
-        <div id="copyright">
-            &copy; 2024 Jennifer Faye
-        </div>
+      <div id="copyright">&copy; 2024 Jennifer Faye</div>
     </footer>
 
-<!-- Link to JQuery-->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Link to JQuery-->
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-   
-<!-- Link to JavaScript File-->
-<script src="assets/javascript/logic.js"></script>
-
-</body>
+    <!-- Link to JavaScript File-->
+    <script src="assets/javascript/logic.js"></script>
+  </body>
 </html>
