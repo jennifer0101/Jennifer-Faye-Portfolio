@@ -1,4 +1,4 @@
-/* Modern minimal reset */
+/* Modern reset for this portfolio */
 
 *,
 *::before,
@@ -24,7 +24,6 @@ picture,
 video,
 canvas,
 svg {
-  display: block;
   max-width: 100%;
 }
 
