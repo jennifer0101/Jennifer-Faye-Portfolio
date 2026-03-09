@@ -141,6 +141,12 @@ nav ul li:hover {
   overflow: auto;
 }
 
+.width-preference {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Center titles vertically */
 
 .home-contents{
