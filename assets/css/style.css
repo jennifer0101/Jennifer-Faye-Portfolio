@@ -288,13 +288,6 @@ padding: 1px 0px 25px 0px;
   border: 2px solid #031d2a;
 }
 
-.text-block-a {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: inherit; 
-}
-
 .light-grey-text {
   color: whitesmoke;
 }
@@ -469,13 +462,6 @@ p.little-sub {
   padding: 20px 0 10px 0;
 }
 
-.text-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 0 20px 0;
-}
-
 #redo-pic1 {
   width: 90%;
   float: right;
@@ -600,27 +586,11 @@ p.little-sub {
   padding: 40px 50px 40px 50px;
 }
 
-/* .bullet {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  margin-top: 15px;
-}
-
-.bullet2 {
-  margin-top: 15px;
-} */
-
 .materialboxed {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-}
-
-.DS-pic {
-  /* padding-top: 20px; */
 }
 
 .indicator-item {
@@ -638,10 +608,6 @@ p.little-sub {
   height: auto;
   padding: 40px 0 40px 0;
 }
-
-/* .indent-words {
-  width: 80%;
-} */
 
 .text-emphasis {
   font-family: "futura-pt", sans-serif;
