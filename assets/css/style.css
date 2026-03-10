@@ -654,7 +654,7 @@ p.little-sub {
 
 .quote-shell {
   padding: 30px 80px 30px 80px;
-  margin: 20px;
+  margin: 30px;
   background-color: #ffffff;
   border: 1px solid #e6e6e6;
   border-top-left-radius: 100px;
@@ -664,6 +664,8 @@ p.little-sub {
 .comparison-shell {
   background-color: #ffffff;
   border: 1px solid #e6e6e6;
+  /* padding: 30px 80px 30px 80px; */
+  margin-bottom: -50px;
 }
 
 /* CRAIGSLIST REDESIGN PAGE */
