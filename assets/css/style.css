@@ -495,9 +495,7 @@ p.little-sub {
 }
 
 #case {
-  margin-bottom: 100px;
   width: 100%;
-  margin-top: -100px;
 }
 
 #case-section {
@@ -647,7 +645,7 @@ p.little-sub {
 
 .text-emphasis {
   font-family: "futura-pt", sans-serif;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   font-size: 28px !important;
   color: #121212;
 }
@@ -655,17 +653,17 @@ p.little-sub {
 .quote-shell {
   padding: 30px 80px 30px 80px;
   margin: 30px;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   border: 1px solid #e6e6e6;
   border-top-left-radius: 100px;
   border-bottom-right-radius: 100px;
+  background-color: #E8F2F8;
 }
 
 .comparison-shell {
   background-color: #ffffff;
   border: 1px solid #e6e6e6;
-  /* padding: 30px 80px 30px 80px; */
-  margin-bottom: -50px;
+  margin-bottom: 15px;
 }
 
 /* CRAIGSLIST REDESIGN PAGE */
