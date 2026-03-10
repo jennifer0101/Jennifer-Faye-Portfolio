@@ -1,542 +1,799 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Jennifer Faye Portfolio</title>
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <!--Import Adobe Font-->
-    <link rel="stylesheet" href="https://use.typekit.net/lqh6vop.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lqh6vop.css" />
     <!-- Link to CSS reset sheet-->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
     <!-- Link to CSS style sheet-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <!-- Link to Materialize-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <!-- responsive screen size viewport code-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- ****** faviconit.com favicons ****** -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
     <!-- <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico"> -->
-    <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
-    <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
-    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
-    <link rel="apple-touch-icon" href="/favicon-57.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
-    <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="msapplication-TileImage" content="/favicon-144.png">
-    <meta name="msapplication-config" content="/browserconfig.xml">
-</head>
+    <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png" />
+    <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="apple-touch-icon" href="/favicon-57.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/favicon-144.png" />
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+  </head>
 
-<body>
+  <body>
     <!-- Sidenav slide out on mobile -->
     <div id="pic-section">
-        <div id="sidebar-wrapper" class="hide-on-large-only">
-            <!-- sidenav trigger hamburger -->
-            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul id="slide-out" class="sidenav">
-            <li><div class="user-view">
-                <div class="background">
-                    <img src="assets/images/hero-side-nav.jpg">
-                </div>
-                    <a href="#user"><img class="circle" src="assets/images/Jen2.jpg"></a>
-                    <a href="#name"><span class="white-text name">Jennifer Faye</span></a>
-                    <a href="#email"><span class="white-text email">jennifer@fayecreative.com</span></a>
-            </div></li>
-                <li><a class="sidenav-close waves-effect" href="index.html">Home</a></li>
-                <li><a class="sidenav-close waves-effect" href="#case">Case Study</a></li>
-                <li><a class="sidenav-close waves-effect" href="#contact2">Contact</a></li>
-                <li>
-                    <div class="divider"></div>
-                </li>
-                <li><a class="sidenav-close waves-effect"
-                    href="https://docs.google.com/document/d/1GXh6dh4BfpZ-uRe0ec8UNnjKlsZq2SSgsTkg1aXT_FE/edit?usp=sharing"
-                    target="_blank" rel="noopener noreferrer"> Resume</a></li>
+      <div id="sidebar-wrapper" class="hide-on-large-only">
+        <!-- sidenav trigger hamburger -->
+        <a href="#" data-target="slide-out" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul id="slide-out" class="sidenav">
+          <li>
+            <div class="user-view">
+              <div class="background">
+                <img src="assets/images/hero-side-nav.jpg" />
+              </div>
+              <a href="#user"
+                ><img class="circle" src="assets/images/Jen2.jpg"
+              /></a>
+              <a href="#name"
+                ><span class="white-text name">Jennifer Faye</span></a
+              >
+              <a href="#email"
+                ><span class="white-text email"
+                  >jennifer@fayecreative.com</span
+                ></a
+              >
+            </div>
+          </li>
+          <li>
+            <a class="sidenav-close waves-effect" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="sidenav-close waves-effect" href="#case">Case Study</a>
+          </li>
+          <li>
+            <a class="sidenav-close waves-effect" href="#contact2">Contact</a>
+          </li>
+          <li>
+            <div class="divider"></div>
+          </li>
+          <li>
+            <a
+              class="sidenav-close waves-effect"
+              href="https://docs.google.com/document/d/1GXh6dh4BfpZ-uRe0ec8UNnjKlsZq2SSgsTkg1aXT_FE/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!--blurb, navbar -->
+      <div id="contents-wrapper">
+        <nav class="transparent">
+          <div class="nav-wrapper z-depth-1">
+            <ul class="right hide-on-med-and-down">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#case">Case Study</a></li>
+              <li><a href="#contact2">Contact</a></li>
+              <li>
+                <a
+                  href="https://docs.google.com/document/d/1GXh6dh4BfpZ-uRe0ec8UNnjKlsZq2SSgsTkg1aXT_FE/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Resume</a
+                >
+              </li>
             </ul>
-        </div>
-    
-        <!--blurb, navbar -->
-        <div id="contents-wrapper">
-            <nav class="transparent">
-                <div class="nav-wrapper z-depth-1">
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#case">Case Study</a></li>
-                        <li><a href="#contact2">Contact</a></li>
-                        <li><a href="https://docs.google.com/document/d/1GXh6dh4BfpZ-uRe0ec8UNnjKlsZq2SSgsTkg1aXT_FE/edit?usp=sharing"
-                                        target="_blank" rel="noopener noreferrer">Resume</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+          </div>
+        </nav>
+      </div>
     </div>
 
     <!-- CASE STUDY SECTION -->
     <div id="case-section">
-        <div id="case" class="section scrollspy">
-            <div id="img-top" >
-                <div class="container">
-                    <div class="top-wrapper">
-                        <div class="row">
-                            <div class="col l5 m12 s12">
-                                <h1>Craigslist Reimagined</h1>
-                                <h6>A redesign of the popular website application, Craigslist.</h6>
-                                <p class="little-sub">Role</p>
-                                <p>Product Designer | UI Case Study</p>
-                                <p class="little-sub">Expertise</p>
-                                <p>Figma, Mobile Design, Resposive Design, Design System, Prototyping, Mockups, Animation</p>
-                            </div>
-                            <div class="col l7 m12 s12">
-                                <img id="mockup-phone" class="z-depth-2" src="assets/images/C_Iphone_mock_woman.jpg">
-                            </div>
-                        </div>
-                    </div>
+      <div id="case" class="section scrollspy">
+        <div id="img-top">
+          <div class="container">
+            <div class="top-wrapper">
+              <div class="row">
+                <div class="col l5 m12 s12">
+                  <h1>Craigslist Reimagined</h1>
+                  <h5>
+                    A conceptual systems overhaul of a legacy classified platform.
+                  </h5>
+                  <h6><strong>Role</strong></h6>
+                    <p>Technical Web Producer | UI Systems Case Study</p>
+                  <h6><strong>Expertise</strong></h6>
+                  <p>
+                    Figma, Responsive Systems, Design System Architecture, Interactive Prototyping
+                  </p>
                 </div>
+                <div class="col l7 m12 s12">
+                  <img
+                    id="mockup-phone"
+                    class="z-depth-2"
+                    src="assets/images/C_Iphone_mock_woman.jpg"
+                  />
+                </div>
+              </div>
             </div>
-
-            <!--Case Study-->
-            <div class="container">
-                <h3 class="center-align title-space">Overview</h3>
-                <div class="row">
-                    <div class="col l12">
-                        <ul>
-                            <li class="bullet2">• Craigslist provides people worldwide with a way to utilize the modern day version of classified ads.</li> 
-                            <li class="bullet2">• People are able to search for job openings, housing, used items for sale and more.</li> 
-                            <li class="bullet2">• Craigslist provides it's millions of monthly users with groups and experiences they can join in order to connect with their community.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <h3 class="center-align title-space">Understanding the Problem</h3>
-                <div class="row">
-                    <div class="col l12">
-                        <p class="text-emphasis quote-shell z-depth-1">
-                        Craigslist's current website application has minimal branding, scant visual design, and the layout is overly complex. People need a way to search modern day classified ads in an intuitive way, with increased brand recognition and confidence in the platform.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col l12">
-                        <p>
-                            I created three user personas who had different needs in using Craigslist: 
-                        </p>
-                        <ul>
-                            <li class="bullet">1. As a new user I need to be able to create an account in order to save my past listings and select listings I wish to follow, as well as enter my location and other personal information.</li>
-                            <li class="bullet">2. As a young adult looking for my first apartment to rent, I want a simple way to search for rentals in my area.</li>
-                            <li class="bullet">3. As a busy mom, I need a way to list old kid's items quickly and efficiently in order to sell them so I can declutter.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-              
-            <div class="container"> 
-            <h3 class="center-align title-space">Creating Solutions</h3>
-                <div class="row">
-                     <div class="col l12">
-                        <p>
-                            Now that I had a good understanding of where the problem areas are on the current website, I set out to find solutions. I decided to simplify the visual clutter, and streamline the user flows. I wanted to create something modern, clean, and intuitive.
-                            <br><br>
-                            In redesigning an existing brand, I first gathered the typography and color choices already being used. I   decided to keep the existing logo of the purple peace sign and the word "craigslist" written in lower case letters in Times New Roman font. I also wanted to shift from the current utilitarian bare-bones feel of the app to something more inviting. With these few simple elements in mind, I created two distinct mood boards.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row persona-wrapper">
-                <div class="col l6 m6 s12">
-                    <img class="mood-pics materialboxed" style="width:100%" src="assets/images/Mood-Board-01.jpg">
-                </div>
-                <div class="col l6 m6 s12">
-                    <img class="mood-pics materialboxed" style="width:100%" src="assets/images/Mood-Board-02.jpg">
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col l12">
-                        <p>
-                            After weighing my options, I decided to go with the “Connection, Bold, Inclusive” mood board, which has bold colors and photography. Craigslist is an international organization which currently has a bold color palate, so I felt this mood board encapsulated the current brand better than the other. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-            <h3 class="center-align title-space">Wireframes</h3>
-                <div class="row">
-                    <div class="col l12">
-                    <p>
-                        After analyzing a few of Craigslist's current user flows, I brainstormed some ideas for improvement and drew some low fidelity wireframes. I then created some mid fidelity wireframes to work with as I refined my designs. I focused  on mobile wireframes due to my mobile first design process.  
-                    </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <p class="center-align little-sub">Craigslist Original Search Screens</p>
-                </div>
-                <div class="row">
-                    <div class="col l4 m4 s12">
-                        <img class="c-og materialboxed" src="assets/images/C-OG-Search-02.png">
-                    </div>
-                    <div class="col l4 m4 s12">
-                        <img class="c-og materialboxed" src="assets/images/C-OG-Search-03.png">
-                    </div>
-                    <div class="col l4 m4 s12">
-                        <img class="c-og materialboxed" src="assets/images/C-OG-Search-04.png">
-                    </div>
-                </div>
-
-            
-                <div class="row">
-                    <p class="center-align little-sub">Low Fidelity Search Screens</p>
-                </div>
-                <div class="row">
-                    <div class="col l4 m4 s12">
-                        <img class="c-og materialboxed" src="assets/images/C-LF-Search-Screen_02.png">
-                    </div>
-                    <div class="col l4 m4 s12">
-                        <img class="c-og materialboxed" src="assets/images/C-LF-Search-Screen_03.png">
-                    </div>
-                    <div class="col l4 m4 s12">
-                        <img class="c-og materialboxed" src="assets/images/C-LF-Search-Screen_04.png">
-                    </div>
-                </div>
-                <div class="row">
-                    <p class="center-align m-bottom"><a href="https://www.figma.com/design/VtGtpJQ2JYO6CmeD2kQi4h/Craigslist-Redesignnode-id=0%3A1&t=P0Vs57Gm44u7jy67-1" target="_blank">Click here </a>to view the entire set of low fidelity wireframes onFigma.</p>
-                </div>
-                <div class="row">
-                    <p class="center-align little-sub">Mid Fidelity Search Screens</p>
-                </div>
-                <div class="row">
-                    <div class="col l4 m4 s12">
-                        <img class="c-og materialboxed" src="assets/images/C-MW-Search-Screen_02.png">
-                    </div>
-                    <div class="col l4 m4 s12">
-                        <img class="c-og materialboxed" src="assets/images/C-MW-Search-Screen_03.png">
-                    </div>
-                    <div class="col l4 m4 s12">
-                        <img class="c-og materialboxed" src="assets/images/C-MW-Search-Screen_04.png">
-                    </div>
-                </div>
-                <div class="row">
-                    <p class="center-align"><a href="https://www.figma.com/design/VtGtpJQ2JYO6CmeD2kQi4h/Craigslist-Redesign?node-id=1%3A33&t=P0Vs57Gm44u7jy67-1" target="_blank">Click here </a>to view the entire set of mid fidelity wireframes on Figma.
-                    </p>
-                </div>
-            </div>
-
-            <div class="container">
-                <h3 class="center-align little-sub title-space">Creating a Style Guide & Design System</h3>
-                <div class="row">
-                    <p>
-                        I added to Craiglist's current style guide a great deal, since they are using very basic fonts and colors. I added more colors to the color palette, in addition to the purple Craigslist uses in their peace sign logo, I added navy blue and a teal to complement the purple. I decided on two new fonts: Spartan for titles, and the very readable Quicksand for body text. I created a new icon set, giving a nod to the classic icons Craigslist currently uses with a modern twist. I then created a design system with reusable components that I would be able to easily use in my app design. This ensured consistency throughout the application on both desktop and mobile views, as well as grids and common breakpoints in order to build a responsive website application.    
-                    </p>
-                </div>
-            </div>
-
-            <div class="outer-box z-depth-1">
-                <img id="S-System" src="assets/images/Style-guide-craigslist.png">
-            </div>
-            <div>
-                <p class="center-align"><a href="https://www.figma.com/design/VtGtpJQ2JYO6CmeD2kQi4h/Craigslist-Redesign?node-id=5%3A107&t=P0Vs57Gm44u7jy67-1" target="_blank">Click here </a>to view the entire design system on Figma.
-                </p>
-            </div>
-        <div class="vid-wrapper">
-            <div class="container">
-                <h3 class="center-align title-space">Animations & Gestures</h3>
-                <div class="row">
-                    <p>
-                        I noted specific gestures on a few screens of my app, and I also created an animation to illustrate how all the modal windows on the app will function. 
-                    </p>
-                </div>
-                <div class="center-align">
-                    <video width="600" autoplay loop muted>
-                        <source src="assets/images/c-Animations.mp4" type="video/mp4">
-                        <source src="assets/images/c-Animations.mp4" type="video/ogg">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-            </div>
+          </div>
         </div>
 
-            <div class="container">
-                <div class="row">
-                    <p class="center-align little-sub">Gestures</p>
-                </div>
-                <div class="row">
-                    <div class="col l4 m4 s12">
-                        <img class="c-og materialboxed" src="assets/images/Gestures-01.png">
-                    </div>
-                    <div class="col l4 m4 s12">
-                        <img class="c-og materialboxed" src="assets/images/Gestures-02.png">
-                    </div>
-                    <div class="col l4 m4 s12">
-                        <img class="c-og materialboxed" src="assets/images/Gestures-03.png">
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <h3 class="center-align title-space">Mockups</h3>
-                <div class="row">
-                    <p class="text-block">
-                        Now it was time to refine my designs and create high fidelity mockups for each of the three user flows. I also was able to create a responsive design for a few screens, so in addition to mobile layouts, I also made a tablet and desktop layout.    
-                    </p>
-                </div>
-            </div>
-
-            <img id="mockup-responsive" class="z-depth-2" src="assets/images/C-Responsive-mockup.png">
-            <br><br>
-            <div>
-                <p class="center-align little-sub">Responsive & Mobile Design Mockups</p>
-            </div>
-            <br>
-            <div class="container">
-                <div class="row">
-                    <div class="col l6 m6 s12 m-bottom">
-                        <img class="responsive-m materialboxed" src="assets/images/C-R-Desktop-search-01.png">
-                    </div>
-                    <div class="col l3 m3 s12 m-bottom">
-                        <img class="responsive-m materialboxed tablet" src="assets/images/C-R-Tablet-search-02.png">
-                    </div>
-                    <div class="col l3 m3 s12 m-bottom">
-                        <img class="responsive-m materialboxed phone" src="assets/images/C-R-Mobile-search-03.png">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col l3 m3 s12 m-bottom">
-                        <img class="responsive-m materialboxed phone" src="assets/images/C-HF-Search-Screen_01.png">
-                    </div>
-                    <div class="col l3 m3 s12 m-bottom">
-                        <img class="responsive-m materialboxed phone" src="assets/images/C-HF-Search-Screen_02.png">
-                    </div>
-                    <div class="col l3 m3 s12 m-bottom">
-                        <img class="responsive-m materialboxed phone" src="assets/images/C-HF-Search-Screen_09.png">
-                    </div>
-                    <div class="col l3 m3 s12 m-bottom">
-                        <img class="responsive-m materialboxed phone" src="assets/images/C-HF-Search-Screen_15.png">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col l3 m3 s12 m-bottom">
-                        <img class="responsive-m materialboxed phone" src="assets/images/C-HF-Post-Screen-03.png">
-                    </div>
-                    <div class="col l3 m3 s12 m-bottom">
-                        <img class="responsive-m materialboxed phone" src="assets/images/C-HF-Post-Screen-04.png">
-                    </div>
-                    <div class="col l3 m3 s12 m-bottom">
-                        <img class="responsive-m materialboxed phone" src="assets/images/C-HF-Post-Screen-05.png">
-                    </div>
-                    <div class="col l3 m3 s12 m-bottom">
-                        <img class="responsive-m materialboxed phone" src="assets/images/C-HF-Post-Screen-07.png">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col l6 m6 s12">
-                        <img class="responsive-m materialboxed" src="assets/images/C-R-Desktop-Post-01.png">
-                    </div>
-                    <div class="col l3 m3 s12">
-                        <img class="responsive-m materialboxed tablet" src="assets/images/C-R-Tablet-Post-02.png">
-                    </div>
-                    <div class="col l3 m3 s12">
-                        <img class="responsive-m materialboxed phone" src="assets/images/C-R-Mobile-Post-03.png">
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <p class="center-align m-bottom"><a href="https://www.figma.com/design/VtGtpJQ2JYO6CmeD2kQi4h/Craigslist-Redesign?node-id=610%3A1434&t=vvPPP9FQE7ze0FCu-1"  target="_blank">Click here </a>to view the entire set of high fidelity mobile and responsive mockups on Figma.
+        <!--Case Study-->
+        <div class="container">
+          <h2 class="center-align title-space">Overview</h2>
+                 <p>
+                 Craigslist remains one of the most recognized classified listing platforms, known for its functional simplicity but minimal visual hierarchy.
                 </p>
-            </div>
-
-            <h3 class="center-align title-space">Before and After</h3>
-
-            <div class="container">
-                <div class="row comparison-shell z-depth-1">
-                    <div class="col l6 m6 s12">
-                        <div class="row">
-                            <div class="col l6 m12 s12">
-                                <p class="center-align m-top">Before</p>
-                                <img class="before materialboxed" src="assets/images/C-comp-01.jpg">
-                            </div>
-                            <div class="col l6 m12 s12">
-                                <p class="center-align m-top">After</p>
-                                <img class="after materialboxed" src="assets/images/C-comp-02.jpg">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col l12 m12 s12">
-                                <p>Craigslist's original home page and my redesigned home page. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col l6 m6 s12">
-                        <div class="row">
-                            <div class="col l6 m12 s12">
-                                <p class="center-align m-top">Before</p>
-                                <img class="before materialboxed" src="assets/images/C-comp-07.jpg">
-                            </div>
-                            <div class="col l6 m12 s12">
-                                <p class="center-align m-top">After</p>
-                                <img class="after materialboxed" src="assets/images/C-comp-08.jpg">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col l12 m12 s12">
-                                <p>Craigslist's design of an apartment listing where the user is able to view multiple photos by clicking on the smaller images under the large one, compared to my redesigned version of a card where multiple photos can be viewed by navigating through them with a swipe gesture. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row comparison-shell z-depth-1">
-                    <div class="col l6 m6 s12">
-                        <div class="row">
-                            <div class="col l6 m12 s12">
-                                <p class="center-align m-top">Before</p>
-                                <img class="before materialboxed" src="assets/images/C-comp-05.jpg">
-                            </div>
-                            <div class="col l6 m12 s12">
-                                <p class="center-align m-top">After</p>
-                                <img class="after materialboxed" src="assets/images/C-comp-06.jpg">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col l12 m12 s12">
-                                <p>Craigslist's original design of their saved favorite items, next to my redesign of this feature. I created both a more visually appealing, and easier to read screen.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col l6 m6 s12">
-                        <div class="row">
-                            <div class="col l6 m12 s12">
-                                <p class="center-align m-top">Before</p>
-                                <img class="before materialboxed" src="assets/images/C-comp-03.jpg">
-                            </div>
-                            <div class="col l6 m12 s12">
-                                <p class="center-align m-top">After</p>
-                                <img class="after materialboxed" src="assets/images/C-comp-04.jpg">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col l12 m12 s12">
-                                <p> Craigslist's original listing of searched apartments, versus my redesign. I decided to remove the row of button selections across the top, and instead contain all this information in the filter button on the upper right hand corner. I also added the ability to scroll through photos for each listing, favorite listings, and pagination navigation.</p>
-                            </div>
-                        </div>
-                    </div>
-                
-                </div>
-
-            <div class="container img-container">
-                <h3 class="center-align title-space">Clickable Prototypes</h3>
-                <p class="center-align little-sub">
-                    Click on each user flow to interact with the prototypes:
+            <div class="width-preference-2">
+                <p>
+                  <strong>Goal: </strong>Simplify high-density information and reduce cognitive load while preserving the platform’s core utility.
                 </p>
-       
-                <br><br>
-                <div class="row">
-
-                    <div class="col l4 m4 s12">
-                        <div class="row">
-                            <p class="little-sub center-align">Sign Up</p>
-                        </div>
-                        <div class="row">
-                            <a href="https://www.figma.com/proto/VtGtpJQ2JYO6CmeD2kQi4h/Craigslist-Redesign?node-id=610-9158t=qUgnuUBUePRu0Vir-1&scaling=min-zoom&page-id=610%3A1434&starting-point-node-id=610%3A9158show-proto-sidebar=1" target="_blank">
-                            <img class="proto-image2" id="proto-pic5" src="assets/images/C-HF-Sign-Up-Screen_01.png" alt="prototype">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col l4 m4 s12">
-                        <div class="row">
-                            <p class="little-sub center-align">Search</p>
-                        </div>
-                        <div class="row">
-                            <a href="https://www.figma.com/proto/VtGtpJQ2JYO6CmeD2kQi4h/Craigslist-Redesign?node-id=610-8997&t=GYmp6DZp1FFzArm2-1&scaling=min-zoom&page-id=610%3A1434&starting-point-node-id=610%3A8997&show-proto-sidebar=1" target="_blank">
-                            <img class="proto-image2" id="proto-pic6" src="assets/images/C-HF-Search-Screen_09.png" alt="prototype">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col l4 m4 s12">
-                        <div class="row">
-                            <p class="little-sub center-align">Post</p>
-                        </div>
-                        <div class="row">
-                            <a href="https://www.figma.com/proto/VtGtpJQ2JYO6CmeD2kQi4h/Craigslist-Redesign?node-id=610-7984&t=8GKZYUE9P94JyiGH-1&scaling=min-zoom&page-id=610%3A1434&starting-point-node-id=610%3A7984&show-proto-sidebar=1" target="_blank">
-                            <img class="proto-image2" id="proto-pic7" src="assets/images/C-HF-Post-Screen-02.png" alt="prototype">
-                            </a>
-                        </div>
-                    </div>
+                <p>
+                  <strong>Technical Focus: </strong>Re-architecting legacy workflows into a responsive, mobile-first system with structured visual hierarchy and consistent interaction patterns.
+                </p>
                 </div>
-            </div>
+          </div>
+
+    
+        </div>
+
+        <div class="container">
+        <h2 class="center-align little-sub title-space">
+          Scalable Design System
+        </h2>
+
+        <p>
+         To modernize a data-heavy interface, I developed a structured design system to ensure visual consistency and responsive stability across redesigned screens.
+        </p>
+        <div class="width-preference-2">
+                <p>
+                  <strong>Typography & Hierarchy: </strong>Introduced a defined title and body type system to improve readability and scanning.
+                </p>
+                <p>
+                  <strong>Reusable Components: </strong>Built a centralized library of icons, cards, filters, and UI patterns to support consistency.
+                </p>
+                <p>
+                  <strong>Responsive Structure: </strong>Defined layout behavior across mobile, tablet, and desktop breakpoints.
+                </p>
+          </div>
+          <p>
+            The system translated structural decisions into repeatable interface patterns, ensuring long-term consistency across complex listing types.
+            </p>
+      </div>
+<div class="wide-view">
+      <div class="comparison-shell z-depth-1">
+        <img id="S-System" src="assets/images/Style-guide-craigslist.png" />
+      </div>
+      <div>
+        <p class="center-align">
+          <a
+            href="https://www.figma.com/design/VtGtpJQ2JYO6CmeD2kQi4h/Craigslist-Redesign?node-id=5%3A107&t=P0Vs57Gm44u7jy67-1"
+            target="_blank"
+            >Click here </a
+          >to view the entire design system on Figma.
+        </p>
+      </div>
+      </div>
+
+
+  <div class="container">
+        <h2 class="center-align title-space">Logic & Flow Analysis</h2>
+
+        <p class="text-emphasis quote-shell z-depth-1">
+          The legacy interface presents dense text layouts with limited hierarchy, increasing cognitive effort during search and listing workflows.
+        </p>
+     
+        <div class="width-preference-2">
+               <p>I focused on three primary structural modules:</p>
+                <p>
+                  <strong>Account Management: </strong>Simplified saved listings and location management.
+                </p>
+                <p>
+                  <strong>Advanced Search: </strong>Modernized filtering for high-density housing and marketplace browsing.
+                </p>
+                <p>
+                  <strong>Posting Flow: </strong>Reduced friction in the listing creation process for repeat users.
+                </p>
+          </div>
+
+          <p>
+            In response, I focused on reducing cognitive load through clearer hierarchy, structured filtering patterns, and modular card layouts designed for scalable implementation.
+            </p>
+        </div>
 
  
-            <!-- <div class="img-background"> -->
-            <div class="container">
-                <h3 class="center-align title-space">Conclusion</h3>
-                <div class="row">
-                     <div class="col l12">
-                        <p>
-                           I have completed the redesign of the initial three user flows, however this project is ongoing and I plan to continue working on it.       
-                            <br><br>
-                           I realized in doing this project that I really enjoy UI and all that is involved in it. I also learned that without the data that user research provides, I was just guessing at what might be more intuitive to the users. Due to that lesson learned, I look forward to conducting some user research and user testing, and then implementing that in redesigning more user flows. The biggest challenge I faced in doing this project was being unsure what the user may find to be an easier more intuitive path than what already existed, which user research and user testing will certainly shed some light on.   
-                            <br><br>
-                            I am confident though that my user persona I mentioned above, the busy mom who needed to quickly list her old kid's items for sale online in order to declutter, would be able to do so with my newly redesigned app. 
-                        </p>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <h3 class="center-align title-space">Iterative Wireframing</h3>
+
+        <p>
+          I analyzed existing flows and mapped friction points before restructuring the information architecture.
+        </p>
+        <p>
+            These wireframes were not aesthetic exercises, but structural tests. Each iteration refined navigation flow, filter clarity, and content grouping before visual styling was introduced.
+        </p>
+        <p>
+        Using a mobile-first approach, I progressed from low-fidelity sketches to mid-fidelity wireframes to validate layout hierarchy and module relationships before visual refinement.
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <p class="center-align little-sub">
+            Craigslist Original Search Screens
+          </p>
         </div>
+        <div class="row">
+          <div class="col l4 m4 s12">
+            <img
+              class="c-og materialboxed"
+              src="assets/images/C-OG-Search-02.png"
+            />
+          </div>
+          <div class="col l4 m4 s12">
+            <img
+              class="c-og materialboxed"
+              src="assets/images/C-OG-Search-03.png"
+            />
+          </div>
+          <div class="col l4 m4 s12">
+            <img
+              class="c-og materialboxed"
+              src="assets/images/C-OG-Search-04.png"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <p class="center-align little-sub">Low Fidelity Search Screens</p>
+        </div>
+        <div class="row">
+          <div class="col l4 m4 s12">
+            <img
+              class="c-og materialboxed"
+              src="assets/images/C-LF-Search-Screen_02.png"
+            />
+          </div>
+          <div class="col l4 m4 s12">
+            <img
+              class="c-og materialboxed"
+              src="assets/images/C-LF-Search-Screen_03.png"
+            />
+          </div>
+          <div class="col l4 m4 s12">
+            <img
+              class="c-og materialboxed"
+              src="assets/images/C-LF-Search-Screen_04.png"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <p class="center-align m-bottom">
+            <a
+              href="https://www.figma.com/design/VtGtpJQ2JYO6CmeD2kQi4h/Craigslist-Redesignnode-id=0%3A1&t=P0Vs57Gm44u7jy67-1"
+              target="_blank"
+              >Click here </a
+            >to view the entire set of low fidelity wireframes onFigma.
+          </p>
+        </div>
+        <div class="row">
+          <p class="center-align little-sub">Mid Fidelity Search Screens</p>
+        </div>
+        <div class="row">
+          <div class="col l4 m4 s12">
+            <img
+              class="c-og materialboxed"
+              src="assets/images/C-MW-Search-Screen_02.png"
+            />
+          </div>
+          <div class="col l4 m4 s12">
+            <img
+              class="c-og materialboxed"
+              src="assets/images/C-MW-Search-Screen_03.png"
+            />
+          </div>
+          <div class="col l4 m4 s12">
+            <img
+              class="c-og materialboxed"
+              src="assets/images/C-MW-Search-Screen_04.png"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <p class="center-align">
+            <a
+              href="https://www.figma.com/design/VtGtpJQ2JYO6CmeD2kQi4h/Craigslist-Redesign?node-id=1%3A33&t=P0Vs57Gm44u7jy67-1"
+              target="_blank"
+              >Click here </a
+            >to view the entire set of mid fidelity wireframes on Figma.
+          </p>
+        </div>
+      </div>
+
+
+    <div class="container">
+        <h3 class="center-align title-space">Production Detailing</h3>
+
+        <p>
+        Validated wireframes were translated into high-fidelity mockups focused on spacing systems, structured hierarchy, and component consistency.
+        </p>
+        <div class="width-preference-2">
+               <p>• Refined card layouts to reduce visual noise.
+               </p>
+              <p>• 
+                  Standardized filter behavior for clarity and predictability.
+                </p>
+              <p>• 
+                  Defined responsive adaptations across device sizes.
+                </p>
+          </div>
+    
+      </div>
+
+            <img
+        id="mockup-responsive"
+        class="z-depth-2"
+        src="assets/images/C-Responsive-mockup.png"
+      />
+
+      <div>
+        <p class="center-align little-sub">
+          Responsive & Mobile Design Mockups
+        </p>
+      </div>
+      <br />
+      <div class="container">
+        <div class="row">
+          <div class="col l6 m6 s12 m-bottom">
+            <img
+              class="responsive-m materialboxed"
+              src="assets/images/C-R-Desktop-search-01.png"
+            />
+          </div>
+          <div class="col l3 m3 s12 m-bottom">
+            <img
+              class="responsive-m materialboxed tablet"
+              src="assets/images/C-R-Tablet-search-02.png"
+            />
+          </div>
+          <div class="col l3 m3 s12 m-bottom">
+            <img
+              class="responsive-m materialboxed phone"
+              src="assets/images/C-R-Mobile-search-03.png"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col l3 m3 s12 m-bottom">
+            <img
+              class="responsive-m materialboxed phone"
+              src="assets/images/C-HF-Search-Screen_01.png"
+            />
+          </div>
+          <div class="col l3 m3 s12 m-bottom">
+            <img
+              class="responsive-m materialboxed phone"
+              src="assets/images/C-HF-Search-Screen_02.png"
+            />
+          </div>
+          <div class="col l3 m3 s12 m-bottom">
+            <img
+              class="responsive-m materialboxed phone"
+              src="assets/images/C-HF-Search-Screen_09.png"
+            />
+          </div>
+          <div class="col l3 m3 s12 m-bottom">
+            <img
+              class="responsive-m materialboxed phone"
+              src="assets/images/C-HF-Search-Screen_15.png"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col l3 m3 s12 m-bottom">
+            <img
+              class="responsive-m materialboxed phone"
+              src="assets/images/C-HF-Post-Screen-03.png"
+            />
+          </div>
+          <div class="col l3 m3 s12 m-bottom">
+            <img
+              class="responsive-m materialboxed phone"
+              src="assets/images/C-HF-Post-Screen-04.png"
+            />
+          </div>
+          <div class="col l3 m3 s12 m-bottom">
+            <img
+              class="responsive-m materialboxed phone"
+              src="assets/images/C-HF-Post-Screen-05.png"
+            />
+          </div>
+          <div class="col l3 m3 s12 m-bottom">
+            <img
+              class="responsive-m materialboxed phone"
+              src="assets/images/C-HF-Post-Screen-07.png"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col l6 m6 s12">
+            <img
+              class="responsive-m materialboxed"
+              src="assets/images/C-R-Desktop-Post-01.png"
+            />
+          </div>
+          <div class="col l3 m3 s12">
+            <img
+              class="responsive-m materialboxed tablet"
+              src="assets/images/C-R-Tablet-Post-02.png"
+            />
+          </div>
+          <div class="col l3 m3 s12">
+            <img
+              class="responsive-m materialboxed phone"
+              src="assets/images/C-R-Mobile-Post-03.png"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <p class="center-align m-bottom">
+          <a
+            href="https://www.figma.com/design/VtGtpJQ2JYO6CmeD2kQi4h/Craigslist-Redesign?node-id=610%3A1434&t=vvPPP9FQE7ze0FCu-1"
+            target="_blank"
+            >Click here </a
+          >to view the entire set of high fidelity mobile and responsive mockups
+          on Figma.
+        </p>
+      </div>
+
+      <div class="container">
+          <h3 class="center-align title-space">Motion & Interaction Documentation</h3>
+           <p>
+      Interactive behaviors and modal transitions were documented to communicate technical intent for implementation.
+        </p>
+        <div class="width-preference-2">
+               <p>• Defined modal open/close transitions.
+               </p>
+              <p>• 
+                  Clarified interaction states for filters and listings.
+                  </p>
+          </div>
+        </div>
+        <div class="vid-wrapper">
+          <div class="center-align">
+            <video width="600" autoplay loop muted>
+              <source src="assets/images/c-Animations.mp4" type="video/mp4" />
+              <source src="assets/images/c-Animations.mp4" type="video/ogg" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+  
+
+      <div class="container">
+        <div class="row">
+          <p class="center-align little-sub">Gestures</p>
+        </div>
+        <div class="row">
+          <div class="col l4 m4 s12">
+            <img
+              class="c-og materialboxed"
+              src="assets/images/Gestures-01.png"
+            />
+          </div>
+          <div class="col l4 m4 s12">
+            <img
+              class="c-og materialboxed"
+              src="assets/images/Gestures-02.png"
+            />
+          </div>
+          <div class="col l4 m4 s12">
+            <img
+              class="c-og materialboxed"
+              src="assets/images/Gestures-03.png"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+          <h3 class="center-align title-space">System Optimization</h3>
+           <p>
+            The redesign shifts from text-dense listing pages to a structured card-based layout with improved spacing and clearer filter hierarchy.
+            </p>
+            <p>
+            The comparison demonstrates:
+        </p>
+        <div class="width-preference-2">
+               <p>• Improved scan-ability
+               </p>
+              <p>• 
+                 Clearer category separation
+                  </p>
+                 <p>• 
+                 More structured visual rhythm
+                  </p>
+          </div>
+        </div>
+        <div class="container">
+        <div class="row comparison-shell z-depth-1">
+          <div class="col l6 m6 s12">
+            <div class="row">
+              <div class="col l6 m12 s12">
+                <p class="center-align m-top">Before</p>
+                <img
+                  class="before materialboxed"
+                  src="assets/images/C-comp-01.jpg"
+                />
+              </div>
+              <div class="col l6 m12 s12">
+                <p class="center-align m-top">After</p>
+                <img
+                  class="after materialboxed"
+                  src="assets/images/C-comp-02.jpg"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col l12 m12 s12">
+                <p>
+                  Craigslist's original home page and my redesigned home page.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col l6 m6 s12">
+            <div class="row">
+              <div class="col l6 m12 s12">
+                <p class="center-align m-top">Before</p>
+                <img
+                  class="before materialboxed"
+                  src="assets/images/C-comp-07.jpg"
+                />
+              </div>
+              <div class="col l6 m12 s12">
+                <p class="center-align m-top">After</p>
+                <img
+                  class="after materialboxed"
+                  src="assets/images/C-comp-08.jpg"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col l12 m12 s12">
+                <p>
+                  Craigslist's design of an apartment listing where the user is
+                  able to view multiple photos by clicking on the smaller images
+                  under the large one, compared to my redesigned version of a
+                  card where multiple photos can be viewed by navigating through
+                  them with a swipe gesture.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row comparison-shell z-depth-1">
+          <div class="col l6 m6 s12">
+            <div class="row">
+              <div class="col l6 m12 s12">
+                <p class="center-align m-top">Before</p>
+                <img
+                  class="before materialboxed"
+                  src="assets/images/C-comp-05.jpg"
+                />
+              </div>
+              <div class="col l6 m12 s12">
+                <p class="center-align m-top">After</p>
+                <img
+                  class="after materialboxed"
+                  src="assets/images/C-comp-06.jpg"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col l12 m12 s12">
+                <p>
+                  Craigslist's original design of their saved favorite items,
+                  next to my redesign of this feature. I created both a more
+                  visually appealing, and easier to read screen.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col l6 m6 s12">
+            <div class="row">
+              <div class="col l6 m12 s12">
+                <p class="center-align m-top">Before</p>
+                <img
+                  class="before materialboxed"
+                  src="assets/images/C-comp-03.jpg"
+                />
+              </div>
+              <div class="col l6 m12 s12">
+                <p class="center-align m-top">After</p>
+                <img
+                  class="after materialboxed"
+                  src="assets/images/C-comp-04.jpg"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col l12 m12 s12">
+                <p>
+                  Craigslist's original listing of searched apartments, versus
+                  my redesign. I decided to remove the row of button selections
+                  across the top, and instead contain all this information in
+                  the filter button on the upper right hand corner. I also added
+                  the ability to scroll through photos for each listing,
+                  favorite listings, and pagination navigation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container img-container">
+          <h2 class="center-align title-space">Clickable Prototypes</h2>
+          <p class="center-align little-sub">
+            Click on each user flow to interact with the prototypes:
+          </p>
+
+          <br /><br />
+          <div class="row">
+            <div class="col l4 m4 s12">
+              <div class="row">
+                <p class="little-sub center-align">Sign Up</p>
+              </div>
+              <div class="row">
+                <a
+                  href="https://www.figma.com/proto/VtGtpJQ2JYO6CmeD2kQi4h/Craigslist-Redesign?node-id=610-9158t=qUgnuUBUePRu0Vir-1&scaling=min-zoom&page-id=610%3A1434&starting-point-node-id=610%3A9158show-proto-sidebar=1"
+                  target="_blank"
+                >
+                  <img
+                    class="proto-image2"
+                    id="proto-pic5"
+                    src="assets/images/C-HF-Sign-Up-Screen_01.png"
+                    alt="prototype"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col l4 m4 s12">
+              <div class="row">
+                <p class="little-sub center-align">Search</p>
+              </div>
+              <div class="row">
+                <a
+                  href="https://www.figma.com/proto/VtGtpJQ2JYO6CmeD2kQi4h/Craigslist-Redesign?node-id=610-8997&t=GYmp6DZp1FFzArm2-1&scaling=min-zoom&page-id=610%3A1434&starting-point-node-id=610%3A8997&show-proto-sidebar=1"
+                  target="_blank"
+                >
+                  <img
+                    class="proto-image2"
+                    id="proto-pic6"
+                    src="assets/images/C-HF-Search-Screen_09.png"
+                    alt="prototype"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col l4 m4 s12">
+              <div class="row">
+                <p class="little-sub center-align">Post</p>
+              </div>
+              <div class="row">
+                <a
+                  href="https://www.figma.com/proto/VtGtpJQ2JYO6CmeD2kQi4h/Craigslist-Redesign?node-id=610-7984&t=8GKZYUE9P94JyiGH-1&scaling=min-zoom&page-id=610%3A1434&starting-point-node-id=610%3A7984&show-proto-sidebar=1"
+                  target="_blank"
+                >
+                  <img
+                    class="proto-image2"
+                    id="proto-pic7"
+                    src="assets/images/C-HF-Post-Screen-02.png"
+                    alt="prototype"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="img-background"> -->
+        <div class="container">
+          <h2 class="center-align title-space">Impact</h2>
+
+          <p>
+            This project demonstrates how a structured design system can modernize high-density information environments while preserving functional familiarity.
+            </p>
+            <p>
+            By re-architecting layout hierarchy and interaction flows, the redesign reduces visual friction without compromising platform utility.
+          </p>
+          <h3 class="center-align title-space">Future Roadmap</h3>
+          <p>Future iterations would include structured usability validation of search filter behavior and further refinement of responsive patterns across global listing variations.
+            </p>
+        </div>
+      </div>
     </div>
 
     <div id="contact-section">
-        <div class="container">
-            <!--Contact-->
-             <div class="row">
-                <div class="col s12 m12 l12">
-                    <div id="contact2" class="section scrollspy">
-                        <h2 id="contact-title">Contact</h2>
-                        <img id="logo-jf" src="assets/images/jf-logo.png">
-                        <div class="center-align">
-                                <a id="email-link" href="mailto:jennifer@fayecreative.com" target="_top">jennifer@fayecreative.com</a>
-                            <br>
-                            <div id="contact-icons">
-                                <a href="tel:7632586005" target="_blank"><img src="assets/images/phone.png" id="phone"></a> 
-                                <a href="https://github.com/jennifer0101" target="_blank"><img src="assets/images/github.png" id="github"></a>
-                                <a href="https://www.linkedin.com/in/jennifer-faye" target="_blank"><img src="assets/images/LI-In-Bug.png" id="linkedin"></a>
-                            </div>
-                         </div>
-                    </div>
+      <div class="container">
+        <!--Contact-->
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <div id="contact2" class="section scrollspy">
+              <h2 id="contact-title">Contact</h2>
+              <img id="logo-jf" src="assets/images/jf-logo.png" />
+              <div class="center-align">
+                <a
+                  id="email-link"
+                  href="mailto:jennifer@fayecreative.com"
+                  target="_top"
+                  >jennifer@fayecreative.com</a
+                >
+                <br />
+                <div id="contact-icons">
+                  <a href="tel:7632586005" target="_blank"
+                    ><img src="assets/images/phone.png" id="phone"
+                  /></a>
+                  <a href="https://github.com/jennifer0101" target="_blank"
+                    ><img src="assets/images/github.png" id="github"
+                  /></a>
+                  <a
+                    href="https://www.linkedin.com/in/jennifer-faye"
+                    target="_blank"
+                    ><img src="assets/images/LI-In-Bug.png" id="linkedin"
+                  /></a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    
+
     <footer>
-        <div id="copyright">
-            &copy; 2024 Jennifer Faye
-        </div>
+      <div id="copyright">&copy; 2024 Jennifer Faye</div>
     </footer>
-    
-<!-- Link to JQuery-->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-       
-<!-- Link to JavaScript File-->
-<script src="assets/javascript/logic.js"></script>
-    
-</body>
+
+    <!-- Link to JQuery-->
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Link to JavaScript File-->
+    <script src="assets/javascript/logic.js"></script>
+  </body>
 </html>
