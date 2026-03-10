@@ -159,6 +159,11 @@ nav ul li:hover {
   text-align: left;
 }
 
+.title-space {
+ padding-top: 25px;
+  padding-bottom: 5px;
+}
+
 /* HOME SECTION */
 
 .overlay1{
