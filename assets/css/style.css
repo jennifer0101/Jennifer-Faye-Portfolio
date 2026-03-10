@@ -151,6 +151,18 @@ nav ul li:hover {
   margin-right: auto;
 }
 
+.width-preference-2 {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg-color {
+background-color: #E8F2F8;
+padding: 0px 0px 25px 0px;
+}
+
+
 /* Center titles vertically */
 
 .home-contents{
@@ -446,6 +458,12 @@ footer {
 }
 
 /* REDO GURU PAGE */
+.wide-view {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 p.little-sub {
   font-weight: 600;
   padding: 20px 0 10px 0;
@@ -634,7 +652,7 @@ p.little-sub {
   color: #121212;
 }
 
-.comparison-shell, .quote-shell {
+.quote-shell {
   padding: 30px 80px 30px 80px;
   margin: 20px;
   background-color: #ffffff;
@@ -643,7 +661,12 @@ p.little-sub {
   border-bottom-right-radius: 100px;
 }
 
-
+.comparison-shell {
+  padding: 30px 80px 30px 80px;
+  margin: 40px 0px 40px 0px;
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+}
 
 /* CRAIGSLIST REDESIGN PAGE */
 
