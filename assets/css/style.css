@@ -98,7 +98,8 @@ nav ul {
 }
 
 nav ul li {
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 nav ul li:hover {
@@ -156,10 +157,6 @@ nav ul li:hover {
   margin-bottom: 0;
 }
 
-#skills-section {
-  /* overflow: auto; */
-}
-
 #contact-section {
   background: rgb(70, 140, 176);
   background: linear-gradient(
@@ -170,24 +167,10 @@ nav ul li:hover {
   overflow: auto;
 }
 
-.width-preference {
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.width-preference-2 {
-  width: 65%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .bg-color {
   background-color: #e8f2f8;
   padding: 1px 0px 25px 0px;
 }
-
-/* Center titles vertically */
 
 .home-contents {
   max-width: none;
@@ -207,13 +190,19 @@ nav ul li:hover {
   padding-bottom: 2rem;
 }
 
-.title-space {
-  margin-top: 3rem;
-  margin-bottom: 1rem;
+.width-preference {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.width-preference-2 {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* HOME SECTION */
-
 .overlay1 {
   font-size: clamp(52px, 6.5vw, 88px) !important;
 
@@ -268,11 +257,6 @@ nav ul li:hover {
   text-shadow: 2px 2px 4px #000000;
 }
 
-.card-skills {
-  font-weight: 600;
-  padding-bottom: 10px;
-}
-
 .card-content {
   font-family: "futura-pt", sans-serif;
   font-style: normal;
@@ -303,7 +287,6 @@ nav ul li:hover {
 
 .logo-title {
   width: 100%;
-  padding: 20px !important;
 }
 
 .wrap-one {
