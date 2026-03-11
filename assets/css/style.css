@@ -167,9 +167,12 @@ nav ul li:hover {
   overflow: auto;
 }
 
-.bg-color {
+.bg-bluish {
   background-color: #e8f2f8;
-  padding: 1px 0px 25px 0px;
+}
+
+.bg-greenish {
+  background-color: #e6f5ef;
 }
 
 .home-contents {
@@ -179,7 +182,8 @@ nav ul li:hover {
 }
 
 .section-block {
-  padding-top: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 .wide-view {
@@ -470,8 +474,6 @@ footer {
 }
 
 /* REDO GURU PAGE */
-
-
 #redo-pic1 {
   width: 90%;
   float: right;
@@ -505,10 +507,6 @@ footer {
 
 .survey-wrapper {
   padding: 0px 50px 0px 50px;
-}
-
-.persona-wrapper {
-  /* padding: 0px 0px 20px 0px; */
 }
 
 .survey-pics {
@@ -638,13 +636,12 @@ footer {
 }
 
 .quote-shell {
-  padding: 30px 80px 30px 80px;
-  margin: 30px;
-  /* background-color: #ffffff; */
+  padding: 70px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
   border: 1px solid #e6e6e6;
   border-top-left-radius: 100px;
   border-bottom-right-radius: 100px;
-  background-color: #e8f2f8;
 }
 
 .comparison-shell {
