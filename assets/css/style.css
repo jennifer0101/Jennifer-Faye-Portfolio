@@ -157,8 +157,7 @@ nav ul li:hover {
 }
 
 #skills-section {
-  overflow: auto;
-  line-height: 1.4;
+  /* overflow: auto; */
 }
 
 #contact-section {
@@ -196,9 +195,21 @@ nav ul li:hover {
   text-align: left;
 }
 
+.section-block {
+  padding-top: 4rem;
+}
+
+.wide-view {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
 .title-space {
-  padding-top: 25px;
-  padding-bottom: 5px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
 /* HOME SECTION */
@@ -476,11 +487,7 @@ footer {
 }
 
 /* REDO GURU PAGE */
-.wide-view {
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 #redo-pic1 {
   width: 90%;
